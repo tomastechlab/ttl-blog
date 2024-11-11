@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Tomas Tech Lab</title>
+    <link>https://tomastechlab.com/tags/development/</link>
+    <description>Recent content in Development on Tomas Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2024 20:14:15 +0100</lastBuildDate>
+    <atom:link href="https://tomastechlab.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angry Development</title>
+      <link>https://tomastechlab.com/posts/angry-development/</link>
+      <pubDate>Fri, 22 Mar 2024 20:14:15 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/angry-development/</guid>
+      <description>&lt;p&gt;Let me start this entry with a few questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do you program?&lt;/li&gt;&#xA;&lt;li&gt;Do you program for long sessions?&lt;/li&gt;&#xA;&lt;li&gt;Do you know &amp;ldquo;The Flow&amp;rdquo;?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you can answer all of these with a &amp;ldquo;yes&amp;rdquo; then you probably know the rush that comes with &amp;ldquo;The Flow&amp;rdquo;.&#xA;Full-focused tunnel vision.&#xA;Just you and your code.&#xA;Its one symbiotic relationship.&#xA;Just a plain beautiful and peaceful state to be in.&lt;/p&gt;&#xA;&lt;p&gt;Well, most of the time at least. Did you know that you can reach this kind of focus by being angry?&#xA;The tunnel vision, the rush, the pump that shakes your whole body when fight-or-flight instincts kick in.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

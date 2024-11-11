@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="When I started programming I learned C, C&#43;&#43; and Java. These languages have been around for decades and are still not fully replaceable by modern languages. I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second. As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people. There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible. Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches to languages. But this entry is titled &ldquo;Adventures in Go&rdquo; and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain. I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C&#43;&#43; and Java did to make the &ldquo;new&rdquo; languages possible helped me a ton in understanding the languages I was using over the years. Some things were easier than others, but all in all I got done what was needed at the time. One language that always had a special place in my heart is Go. I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant. I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.
+" />
+<meta name="keywords" content="[blog homepage], programming, go, game dev, project" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/adventures-in-go/" />
+
+
+    <title>
+        
+            Adventures in Go :: Tomas Tech Lab 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.244183cde1a38e0b08f82c11791181288f9aac1cc9618cd6f4e9e7710c5768ba.css" integrity="sha256-JEGDzeGjjgsI&#43;CwReRGBKI&#43;arBzJYYzW9OnncQxXaLo=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Adventures in Go">
+  <meta itemprop="description" content="When I started programming I learned C, C&#43;&#43; and Java. These languages have been around for decades and are still not fully replaceable by modern languages. I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second. As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people. There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible. Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches to languages. But this entry is titled “Adventures in Go” and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain. I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C&#43;&#43; and Java did to make the “new” languages possible helped me a ton in understanding the languages I was using over the years. Some things were easier than others, but all in all I got done what was needed at the time. One language that always had a special place in my heart is Go. I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant. I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.">
+  <meta itemprop="datePublished" content="2024-03-11T14:15:08+01:00">
+  <meta itemprop="dateModified" content="2024-03-11T14:15:08+01:00">
+  <meta itemprop="wordCount" content="578">
+  <meta itemprop="keywords" content="Programming,Go,Game Dev,Project">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Adventures in Go">
+  <meta name="twitter:description" content="When I started programming I learned C, C&#43;&#43; and Java. These languages have been around for decades and are still not fully replaceable by modern languages. I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second. As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people. There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible. Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches to languages. But this entry is titled “Adventures in Go” and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain. I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C&#43;&#43; and Java did to make the “new” languages possible helped me a ton in understanding the languages I was using over the years. Some things were easier than others, but all in all I got done what was needed at the time. One language that always had a special place in my heart is Go. I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant. I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2024-03-11 14:15:08 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                hello</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://localhost:1313/adventures-in-go/">Adventures in Go</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>When I started programming I learned C, C++ and Java. These languages have been around for decades and are still not fully replaceable by modern languages.
+I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second.
+As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people.
+There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible.
+Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches
+to languages.
+But this entry is titled &ldquo;Adventures in Go&rdquo; and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain.
+I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C++ and Java did to
+make the &ldquo;new&rdquo; languages possible helped me a ton in understanding the languages I was using over the years.
+Some things were easier than others, but all in all I got done what was needed at the time.
+One language that always had a special place in my heart is Go.
+I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant.
+I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.</p>
+<p>Therefore I decided to write a little more Go. Just a little. But it should be fun. And I want to be guided a bit with the freedom to make my own choices in the process.
+So what is the project I chose? Of course its a game.
+Introducing project &ldquo;Plainwalker&rdquo; an adventure RPG written in Go.
+Yes, I am writing a game in Go using raylib as the framework. No Unity, no Unreal, no Godot. Just Go code =&gt; Videogame. For why I chose this path would be an entry on its own. So maybe I will write about it. We will see.
+I dabbled in game dev in C and C++ before, but this was (as already mentioned) in the old days.
+I am curious how the ecosystem of game making evolved when I dont use a graphical editor where I can point and click at objects to manipulate their state and behaviour.</p>
+<p>For the game itself I chose a genre that I&rsquo;m most familiar with. RPG. Yeah.. I know. Its a broad field but as I grew up I played Legend of Zelda, Secret of Evermore, Secret of Mana and of course all the Final Fantasy games that I could get my hands on.
+These games stick to me even until today so I want to create something that reminds me of them.
+The goal is not to create the next big hit. I probably wont ever release it. Its just for me to learn more Go, do some development outside of my regular work as a web developer and maybe create something that I can enjoy.</p>
+<p>Depending on how it goes I will try to write about my progress and maybe distribute a few builds to gather feedback.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/programming/">programming</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/go/">go</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/game-dev/">game dev</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/project/">project</a></span>
+        
+    </p>
+
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js" integrity="sha512-6J/aDym5XTP29CJN2eXPadhK/zgYvisNc&#43;cxaJzDdCYbAW0X1G&#43;DgZYvtKFXe6MBex8jUJ2JT25mQx&#43;YjACIng=="></script>
+
+
+
+
+    </body>
+</html>

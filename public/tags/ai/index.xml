@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on Tomas Tech Lab</title>
+    <link>https://tomastechlab.com/tags/ai/</link>
+    <description>Recent content in Ai on Tomas Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Apr 2024 06:06:06 +0100</lastBuildDate>
+    <atom:link href="https://tomastechlab.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do I Need My Own AI Assistant</title>
+      <link>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</link>
+      <pubDate>Tue, 09 Apr 2024 06:06:06 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</guid>
+      <description>&lt;p&gt;In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be.&#xA;Which, frankly, isnt that hard, considering its an old house from the 50s.&#xA;In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system.&#xA;Nothing too huge. Just a few cameras on the property and the entrance area.&#xA;During the planing I the idea came to me to use AI to assist me in home automation and surveillance.&#xA;But what does that mean exactly?&#xA;I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around)&#xA;The servers are currently located in my garage, far away enough to not get disturbed by the noise they make.&#xA;Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house.&#xA;But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process.&#xA;Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI.&#xA;And the best part of it? Its all cloudless. And oh boy, it works great.&#xA;Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

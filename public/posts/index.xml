@@ -1,0 +1,312 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Tomas Tech Lab</title>
+        <link>https://tomastechlab.com/posts/</link>
+        <description>Recent content in Posts on Tomas Tech Lab</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 10 Nov 2024 21:06:16 +0100</lastBuildDate>
+        <atom:link href="https://tomastechlab.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Hosted in the Woods</title>
+            <link>https://tomastechlab.com/posts/hosted-in-the-woods/</link>
+            <pubDate>Mon, 28 Oct 2024 19:55:29 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/hosted-in-the-woods/</guid>
+            <description>&lt;p&gt;Guess what happened.. I got rid of my expensive server in the datacenter. Ther very server that is hosting this site.
+But how? You might ask. Good question! I would like to explain everything in detail but&amp;hellip; lets be honest, I would mess up
+and dox myself on the internet.
+But I can give you the gist of it.
+What basically happened is that I created my own homelab. Which means I&amp;rsquo;m essentially my own hosting provider now.
+Which means in return I can run this site and essentially all my services (more on them later) on a very small box with very little power requirements which is, in the end, waaaayyy cheaper than renting a vps at one of the big hosting providers.
+Sure, I miss out on a lot of nice features they offer, like redundant connections, firewalling, storage, cooling solutions&amp;hellip;
+but do I really need all of this?
+Let me tell you.. I have way more failsafe solutions than needed for this small site and all my other services (more on them later)
+So whats the deal then? I have a small computer running in the woods, its needs next to nothing in terms of power, has a redundant 2kw/h battery backup (which is absolutely overkill for this), main power is coming from an array of solar panels so power is no concern.
+What about connectivity. I have a dedicated internet conenction for this machine and on another connection to my home network. This means I can expose anything I want to the internet from this machine and dont have to worry of exposing my home or work machines through it in any way as all services are bound to an interface.
+And lets be honest, the person that will have the most issues with this blog being down is myself. And even if the internet connection goes down I can still access my blog via a local connection. So I can create my entries even without internet.
+If this makes sense in any shape or form is a topic for some other day.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Guess what happened.. I got rid of my expensive server in the datacenter. Ther very server that is hosting this site.
+But how? You might ask. Good question! I would like to explain everything in detail but&hellip; lets be honest, I would mess up
+and dox myself on the internet.
+But I can give you the gist of it.
+What basically happened is that I created my own homelab. Which means I&rsquo;m essentially my own hosting provider now.
+Which means in return I can run this site and essentially all my services (more on them later) on a very small box with very little power requirements which is, in the end, waaaayyy cheaper than renting a vps at one of the big hosting providers.
+Sure, I miss out on a lot of nice features they offer, like redundant connections, firewalling, storage, cooling solutions&hellip;
+but do I really need all of this?
+Let me tell you.. I have way more failsafe solutions than needed for this small site and all my other services (more on them later)
+So whats the deal then? I have a small computer running in the woods, its needs next to nothing in terms of power, has a redundant 2kw/h battery backup (which is absolutely overkill for this), main power is coming from an array of solar panels so power is no concern.
+What about connectivity. I have a dedicated internet conenction for this machine and on another connection to my home network. This means I can expose anything I want to the internet from this machine and dont have to worry of exposing my home or work machines through it in any way as all services are bound to an interface.
+And lets be honest, the person that will have the most issues with this blog being down is myself. And even if the internet connection goes down I can still access my blog via a local connection. So I can create my entries even without internet.
+If this makes sense in any shape or form is a topic for some other day.</p>
+<p>But what about my services that I keep mentioning?
+I run a bunch of stuff which is currently only running in my local network. Which means I can only access it if I&rsquo;m home.
+But thats no issue&hellip;. yet. If I would ever need to connect from a remote place into my system I would set up a vpn connection
+into my home network&hellip; which I may or may not have already done ;)
+But what am I running here?</p>
+<ul>
+<li>a NAS which holds my borg backup repository</li>
+<li>a gitlab instance for my small project that I dont want to share with the world (like my home AI assistant)</li>
+<li>my home AI assistant</li>
+<li>octoprint to schedule print jobs on my 3d printer</li>
+<li>music collection which grows day by day and has the ability to run without a spotify/deezer/whatever subscription</li>
+<li>a plex server for inhouse movie streaming (because optical media is BAAAADDDD)</li>
+<li>piHole to get rid of annoying ads when I&rsquo;m home</li>
+<li>dns server to reach all these services via a nice home.lab domain</li>
+<li>homeassistant for all my home automation tasks</li>
+<li>photoprism for photo backups from my and my wifes phone</li>
+<li>paperless for document management (because haptic paper BAAAADDDD)</li>
+</ul>
+<p>&hellip;and I bet I forgot at least 3 to 5 other systems that I cant remember at the moment.
+So you see there is quite a lot running in my homelab. But most of it isnt not relevant or even practical for external use.
+Therefore I currently only expose a firewalled docker container with a webserver to the web. The one that is hosting this very site you are reading.</p>
+<p>So I hope I could give you, dear reader, a litte overview of why I dont need a big server hosted in a giant facility with lots of failsafes.</p>
+<p>It might not be much in the end, but its <del>honest work</del> a lot of fun!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>UPDATES!!</title>
+            <link>https://tomastechlab.com/posts/updates/</link>
+            <pubDate>Tue, 20 Aug 2024 18:48:59 +0200</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/updates/</guid>
+            <description>&lt;p&gt;Could you image a world where everything you touch and try just works and all is well?
+No?
+Me neither..
+Especially in terms of IT systems. There is always something to do. Wether it be creating or updating software,
+deploying systems, hardware modifications to tackle new challenges or just user suppport for the latest edge cases.
+I bet there is a lot more that would need coverage but I dont have the time to finish this list.
+I guess what I want to say is:&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Could you image a world where everything you touch and try just works and all is well?
+No?
+Me neither..
+Especially in terms of IT systems. There is always something to do. Wether it be creating or updating software,
+deploying systems, hardware modifications to tackle new challenges or just user suppport for the latest edge cases.
+I bet there is a lot more that would need coverage but I dont have the time to finish this list.
+I guess what I want to say is:</p>
+<p>I updated the server. Which one? The one you requested this page from.
+But not only the server got an update, all used software aroud it got updates too.
+This means we run on the latest and greatest operating system kernel and patches, the blog software got an update
+under the hood (more on this in a seperate post), the domain management got fixed and updated,
+the mailserver that I have running got updated and configured properly&hellip;.
+and I bet that I forgot something reallz important to list here. But if you ever have done something similar
+you know that this stuff takes time. Mostly time that nobody has or is willing to take.</p>
+<p>&ldquo;It works, just dont touch it and it wont break&rdquo; or more commonly known as &ldquo;Never touch a running system&rdquo;
+A sentence that I learned to hate with passion.
+The idea behind it seems neat: get everything up and running, configure it to your liking, and forget about it because software that runs
+properly once, will (or rather should) behave the same way everytime.</p>
+<p>But sadly this is not true. And if you work with in the industry long enough you will face issues from parts of the system that where
+considered &ldquo;robust&rdquo; and &ldquo;fail safe&rdquo; .. at least at the time they were deployed.</p>
+<p>So keep in mind folks: Test your systems regularly, update them on at least a fixed schedule
+and dont forget to always have your backups ready (I should write about backups sometime, shouldnt I?).</p>
+<p>So far, just a quick entry to make sure everybody knows that I&rsquo;m still here. Working on my projects (check my other posts)
+and I might try to post more in here in the future&hellip; we will see how this goes.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Do I Need My Own AI Assistant</title>
+            <link>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</link>
+            <pubDate>Tue, 09 Apr 2024 06:06:06 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</guid>
+            <description>&lt;p&gt;In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be.
+Which, frankly, isnt that hard, considering its an old house from the 50s.
+In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system.
+Nothing too huge. Just a few cameras on the property and the entrance area.
+During the planing I the idea came to me to use AI to assist me in home automation and surveillance.
+But what does that mean exactly?
+I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around)
+The servers are currently located in my garage, far away enough to not get disturbed by the noise they make.
+Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house.
+But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process.
+Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI.
+And the best part of it? Its all cloudless. And oh boy, it works great.
+Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be.
+Which, frankly, isnt that hard, considering its an old house from the 50s.
+In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system.
+Nothing too huge. Just a few cameras on the property and the entrance area.
+During the planing I the idea came to me to use AI to assist me in home automation and surveillance.
+But what does that mean exactly?
+I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around)
+The servers are currently located in my garage, far away enough to not get disturbed by the noise they make.
+Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house.
+But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process.
+Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI.
+And the best part of it? Its all cloudless. And oh boy, it works great.
+Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.</p>
+<p>But the question still remains: Do I really need this?</p>
+<p>And the answer to this question is simple: No.
+Do I want it anyway? Yes.
+Why? Because I love to tinker with things and the idea of running my own AI as part of my security / home automation system sounds very cool to me.</p>
+<p>I bet that I am not the only one creating such a system. In fact, I know that I am not the only one because I saw other people writing/talking/showing similar stuff on various platforms.
+And the fact that others can create similar systems is what makes me believe that I can do this too. Even with of-the-shelf components and no scientific research background in the field.</p>
+<p>Long story short: I train my own AI/Computer Vision model on my own hardware to learn and create a system that will be able to support me in surveillance tasks around the house as well as some automation that I am planing (more on that part in another post).</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>A House From the 50s - but smart</title>
+            <link>https://tomastechlab.com/posts/a-house-from-the-50s-but-smart/</link>
+            <pubDate>Fri, 29 Mar 2024 13:02:14 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/a-house-from-the-50s-but-smart/</guid>
+            <description>&lt;p&gt;In the beginning of 2023 I bought a house and was pretty happy about it.
+The house wasnt anything special but it has enough rooms to house me, my wife and my daughter.
+The biggest issue however was that the man that lived here before us was a heavy smoker. And I mean a real heavy smoker.
+So the walls and all the interior was basically soaked in nicotin.
+So the only reasonable thing to do was to rip out basically anything and replace it with something new and fresh.
+While I planned on how to achieve a home that I can live in for longer than just a few years a thought came to mind which was
+basically: Why not make it smart if I have to renovate everything anyway?
+And so it started.
+But first I had so clarify some things:&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>In the beginning of 2023 I bought a house and was pretty happy about it.
+The house wasnt anything special but it has enough rooms to house me, my wife and my daughter.
+The biggest issue however was that the man that lived here before us was a heavy smoker. And I mean a real heavy smoker.
+So the walls and all the interior was basically soaked in nicotin.
+So the only reasonable thing to do was to rip out basically anything and replace it with something new and fresh.
+While I planned on how to achieve a home that I can live in for longer than just a few years a thought came to mind which was
+basically: Why not make it smart if I have to renovate everything anyway?
+And so it started.
+But first I had so clarify some things:</p>
+<ul>
+<li>How smart should it be in the end?</li>
+<li>Do I want to use cloud services to make it smarter?</li>
+<li>Do I need AI stuff?</li>
+</ul>
+<p>After answering these questions and making decisions based on my answers I started planning every aspect of my smart home.
+First of: Power. How am I supposed to power all the smart devcices I plan to put into the house? And the answer was pretty easy.
+As I plan to reduce my fossil resource footprint anyway I did the only reasonable thing for me and bought a solar system with a battery which provides enough power to keep all my devices running for about 4-8 hours if its battery is fully charged and I cant get power from the grid.
+But before I could install such a huge solar system I had to replace my entire roof.
+Because the old one was basically build from plain trees and goodwill.
+The issue wasnt that the roof was prone to get destroyed any time soon but it wasnt capable of holding solar panels and more insulation, that I planned to add because until this point in time there were no insulation for the roof at all.
+This was the biggest step that I could make in the time and it was absolutely worth it. The Roof is properly insulated, the solar system is in place and runs smoothly and I dont have to worry about any power issues as long as I have some juice left in the battery.
+Step one was done. And the next one is building new rooms right under the roof.
+This is where I currently am. I have a full plan on how to build a new floor for rooms and how I get the powerlines in there and how the insulation for the floor is done and where and how I have to build new walls and so on&hellip;
+Lets just say I already started with it and am happy that, so far, everything turns out how I wanted it to. It takes time of course, because I do basically all by myself and I have so many questions on how to do things properly. Gladly I know how to use the internet and know people that know a lot of things that are completely new for me.
+So this adventure will take a few years and I plan to document it here. So if anythings arises I will add a new entry in here for you to read. If you want.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Angry Development</title>
+            <link>https://tomastechlab.com/posts/angry-development/</link>
+            <pubDate>Fri, 22 Mar 2024 20:14:15 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/angry-development/</guid>
+            <description>&lt;p&gt;Let me start this entry with a few questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do you program?&lt;/li&gt;
+&lt;li&gt;Do you program for long sessions?&lt;/li&gt;
+&lt;li&gt;Do you know &amp;ldquo;The Flow&amp;rdquo;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you can answer all of these with a &amp;ldquo;yes&amp;rdquo; then you probably know the rush that comes with &amp;ldquo;The Flow&amp;rdquo;.
+Full-focused tunnel vision.
+Just you and your code.
+Its one symbiotic relationship.
+Just a plain beautiful and peaceful state to be in.&lt;/p&gt;
+&lt;p&gt;Well, most of the time at least. Did you know that you can reach this kind of focus by being angry?
+The tunnel vision, the rush, the pump that shakes your whole body when fight-or-flight instincts kick in.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Let me start this entry with a few questions:</p>
+<ul>
+<li>Do you program?</li>
+<li>Do you program for long sessions?</li>
+<li>Do you know &ldquo;The Flow&rdquo;?</li>
+</ul>
+<p>If you can answer all of these with a &ldquo;yes&rdquo; then you probably know the rush that comes with &ldquo;The Flow&rdquo;.
+Full-focused tunnel vision.
+Just you and your code.
+Its one symbiotic relationship.
+Just a plain beautiful and peaceful state to be in.</p>
+<p>Well, most of the time at least. Did you know that you can reach this kind of focus by being angry?
+The tunnel vision, the rush, the pump that shakes your whole body when fight-or-flight instincts kick in.</p>
+<p>Let me tell you, I know this feeling. And maybe you do too. The state of anger that fuels your keystrokes
+to make the code do what you tell it to do. And if it refuses, you type harder. Waaayy harder.
+Throwing asserts and checks and ifs and give it no choice but to take it like punches.
+A real battle where the winner is already known. Its you. It will always be you. Because you have the control. The power. You know your syntax.
+And in the end. You sit back with a satisfying grin on your face.
+Just to run your code one last time before it declares utter defeat.
+As your output loads, you feel strong, unbeatable, the best programmer ever known to mankind.
+The Bug is squashed under your dominant code. The output is what you expected. Not more. Not less.
+And just as you think to yourself: Did I really need to be so angry about what I did? Was it worth it? And what did it cost?
+The next unexpected behaviour rises from the dark as new code-paths are traversed.
+So you lean in, put your hands on your keyboard and show it, why you are in charge and the machine is mere your obedient server.</p>
+<p>Sounds somewhat familiar? Maybe just a bit? For me it really does. I get angry all the time about unstructured code, unexpected behaviour or badly written documentation.
+The thing about angry programming is, that it puts you in a position of power. Everything that bothers you can be thrown at it.
+And I would say that is better than to shout at your neighbors kids for drawing on your fence again. Or the coworker that didnt clean the coffee machine properly.
+Make most of your mental states. Take your feelings and put them towards something good. Even if that feeling is anger.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Adventures in Go</title>
+            <link>https://tomastechlab.com/posts/adventures-in-go/</link>
+            <pubDate>Mon, 11 Mar 2024 14:15:08 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/adventures-in-go/</guid>
+            <description>&lt;p&gt;When I started programming I learned C, C++ and Java. These languages have been around for decades and are still not fully replaceable by modern languages.
+I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second.
+As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people.
+There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible.
+Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches
+to languages.
+But this entry is titled &amp;ldquo;Adventures in Go&amp;rdquo; and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain.
+I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C++ and Java did to
+make the &amp;ldquo;new&amp;rdquo; languages possible helped me a ton in understanding the languages I was using over the years.
+Some things were easier than others, but all in all I got done what was needed at the time.
+One language that always had a special place in my heart is Go.
+I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant.
+I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>When I started programming I learned C, C++ and Java. These languages have been around for decades and are still not fully replaceable by modern languages.
+I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second.
+As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people.
+There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible.
+Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches
+to languages.
+But this entry is titled &ldquo;Adventures in Go&rdquo; and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain.
+I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C++ and Java did to
+make the &ldquo;new&rdquo; languages possible helped me a ton in understanding the languages I was using over the years.
+Some things were easier than others, but all in all I got done what was needed at the time.
+One language that always had a special place in my heart is Go.
+I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant.
+I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.</p>
+<p>Therefore I decided to write a little more Go. Just a little. But it should be fun. And I want to be guided a bit with the freedom to make my own choices in the process.
+So what is the project I chose? Of course its a game.
+Introducing project &ldquo;Plainwalker&rdquo; an adventure RPG written in Go.
+Yes, I am writing a game in Go using raylib as the framework. No Unity, no Unreal, no Godot. Just Go code =&gt; Videogame. For why I chose this path would be an entry on its own. So maybe I will write about it. We will see.
+I dabbled in game dev in C and C++ before, but this was (as already mentioned) in the old days.
+I am curious how the ecosystem of game making evolved when I dont use a graphical editor where I can point and click at objects to manipulate their state and behaviour.</p>
+<p>For the game itself I chose a genre that I&rsquo;m most familiar with. RPG. Yeah.. I know. Its a broad field but as I grew up I played Legend of Zelda, Secret of Evermore, Secret of Mana and of course all the Final Fantasy games that I could get my hands on.
+These games stick to me even until today so I want to create something that reminds me of them.
+The goal is not to create the next big hit. I probably wont ever release it. Its just for me to learn more Go, do some development outside of my regular work as a web developer and maybe create something that I can enjoy.</p>
+<p>Depending on how it goes I will try to write about my progress and maybe distribute a few builds to gather feedback.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hello World</title>
+            <link>https://tomastechlab.com/posts/hello-world/</link>
+            <pubDate>Tue, 05 Mar 2024 19:12:19 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/hello-world/</guid>
+            <description>&lt;p&gt;Hello and welcome to my first entry! As I have no idea what to write in this first post I would like to thank you.&lt;/p&gt;
+&lt;p&gt;Yes, thank you!&lt;/p&gt;
+&lt;p&gt;The fact that you found this Blog, and read this, tells me that you might be interested in something I wrote about or just scraped
+the Internet hard enough to find a link to this post.
+Anyway, while you are here, why dont you check out my &lt;a href=&#34;https://tomastechlab.com/about/&#34; title=&#34;about&#34;&gt;about&lt;/a&gt; page?
+Or any other post I might have published since I wrote these lines.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Hello and welcome to my first entry! As I have no idea what to write in this first post I would like to thank you.</p>
+<p>Yes, thank you!</p>
+<p>The fact that you found this Blog, and read this, tells me that you might be interested in something I wrote about or just scraped
+the Internet hard enough to find a link to this post.
+Anyway, while you are here, why dont you check out my <a href="https://tomastechlab.com/about/" title="about">about</a> page?
+Or any other post I might have published since I wrote these lines.</p>
+<p>In  any case I hope you enjoy your time here. And if you might have any questions, feel free to contact me.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

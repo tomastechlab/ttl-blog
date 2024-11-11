@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homelab on Tomas Tech Lab</title>
+    <link>https://tomastechlab.com/tags/homelab/</link>
+    <description>Recent content in Homelab on Tomas Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Oct 2024 19:55:29 +0100</lastBuildDate>
+    <atom:link href="https://tomastechlab.com/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosted in the Woods</title>
+      <link>https://tomastechlab.com/posts/hosted-in-the-woods/</link>
+      <pubDate>Mon, 28 Oct 2024 19:55:29 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/hosted-in-the-woods/</guid>
+      <description>&lt;p&gt;Guess what happened.. I got rid of my expensive server in the datacenter. Ther very server that is hosting this site.&#xA;But how? You might ask. Good question! I would like to explain everything in detail but&amp;hellip; lets be honest, I would mess up&#xA;and dox myself on the internet.&#xA;But I can give you the gist of it.&#xA;What basically happened is that I created my own homelab. Which means I&amp;rsquo;m essentially my own hosting provider now.&#xA;Which means in return I can run this site and essentially all my services (more on them later) on a very small box with very little power requirements which is, in the end, waaaayyy cheaper than renting a vps at one of the big hosting providers.&#xA;Sure, I miss out on a lot of nice features they offer, like redundant connections, firewalling, storage, cooling solutions&amp;hellip;&#xA;but do I really need all of this?&#xA;Let me tell you.. I have way more failsafe solutions than needed for this small site and all my other services (more on them later)&#xA;So whats the deal then? I have a small computer running in the woods, its needs next to nothing in terms of power, has a redundant 2kw/h battery backup (which is absolutely overkill for this), main power is coming from an array of solar panels so power is no concern.&#xA;What about connectivity. I have a dedicated internet conenction for this machine and on another connection to my home network. This means I can expose anything I want to the internet from this machine and dont have to worry of exposing my home or work machines through it in any way as all services are bound to an interface.&#xA;And lets be honest, the person that will have the most issues with this blog being down is myself. And even if the internet connection goes down I can still access my blog via a local connection. So I can create my entries even without internet.&#xA;If this makes sense in any shape or form is a topic for some other day.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be. Which, frankly, isnt that hard, considering its an old house from the 50s. In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system. Nothing too huge. Just a few cameras on the property and the entrance area. During the planing I the idea came to me to use AI to assist me in home automation and surveillance. But what does that mean exactly? I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around) The servers are currently located in my garage, far away enough to not get disturbed by the noise they make. Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house. But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process. Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI. And the best part of it? Its all cloudless. And oh boy, it works great. Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.
+" />
+<meta name="keywords" content="[blog homepage], ai, project, smart" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/do-i-need-my-own-ai-assistant/" />
+
+
+    <title>
+        
+            Do I Need My Own AI Assistant :: Tomas Tech Lab 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.244183cde1a38e0b08f82c11791181288f9aac1cc9618cd6f4e9e7710c5768ba.css" integrity="sha256-JEGDzeGjjgsI&#43;CwReRGBKI&#43;arBzJYYzW9OnncQxXaLo=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Do I Need My Own AI Assistant">
+  <meta itemprop="description" content="In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be. Which, frankly, isnt that hard, considering its an old house from the 50s. In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system. Nothing too huge. Just a few cameras on the property and the entrance area. During the planing I the idea came to me to use AI to assist me in home automation and surveillance. But what does that mean exactly? I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around) The servers are currently located in my garage, far away enough to not get disturbed by the noise they make. Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house. But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process. Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI. And the best part of it? Its all cloudless. And oh boy, it works great. Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.">
+  <meta itemprop="datePublished" content="2024-04-09T06:06:06+01:00">
+  <meta itemprop="dateModified" content="2024-04-09T06:06:06+01:00">
+  <meta itemprop="wordCount" content="488">
+  <meta itemprop="keywords" content="Ai,Project,Smart">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Do I Need My Own AI Assistant">
+  <meta name="twitter:description" content="In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be. Which, frankly, isnt that hard, considering its an old house from the 50s. In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system. Nothing too huge. Just a few cameras on the property and the entrance area. During the planing I the idea came to me to use AI to assist me in home automation and surveillance. But what does that mean exactly? I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around) The servers are currently located in my garage, far away enough to not get disturbed by the noise they make. Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house. But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process. Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI. And the best part of it? Its all cloudless. And oh boy, it works great. Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2024-04-09 06:06:06 &#43;0100 &#43;0100" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                hello</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://localhost:1313/do-i-need-my-own-ai-assistant/">Do I Need My Own AI Assistant</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be.
+Which, frankly, isnt that hard, considering its an old house from the 50s.
+In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system.
+Nothing too huge. Just a few cameras on the property and the entrance area.
+During the planing I the idea came to me to use AI to assist me in home automation and surveillance.
+But what does that mean exactly?
+I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around)
+The servers are currently located in my garage, far away enough to not get disturbed by the noise they make.
+Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house.
+But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process.
+Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI.
+And the best part of it? Its all cloudless. And oh boy, it works great.
+Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.</p>
+<p>But the question still remains: Do I really need this?</p>
+<p>And the answer to this question is simple: No.
+Do I want it anyway? Yes.
+Why? Because I love to tinker with things and the idea of running my own AI as part of my security / home automation system sounds very cool to me.</p>
+<p>I bet that I am not the only one creating such a system. In fact, I know that I am not the only one because I saw other people writing/talking/showing similar stuff on various platforms.
+And the fact that others can create similar systems is what makes me believe that I can do this too. Even with of-the-shelf components and no scientific research background in the field.</p>
+<p>Long story short: I train my own AI/Computer Vision model on my own hardware to learn and create a system that will be able to support me in surveillance tasks around the house as well as some automation that I am planing (more on that part in another post).</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/ai/">ai</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/project/">project</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/smart/">smart</a></span>
+        
+    </p>
+
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js" integrity="sha512-6J/aDym5XTP29CJN2eXPadhK/zgYvisNc&#43;cxaJzDdCYbAW0X1G&#43;DgZYvtKFXe6MBex8jUJ2JT25mQx&#43;YjACIng=="></script>
+
+
+
+
+    </body>
+</html>
