@@ -1,0 +1,9 @@
+services:
+  webserver:
+    image: nginx:stable-alpine
+    volumes:
+      - .:/usr/share/nginx/html
+    ports:
+      - "8083:80"
+    environment:
+      - NGINX_HOST=tomastechlab.com

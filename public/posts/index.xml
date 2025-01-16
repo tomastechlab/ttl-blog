@@ -5,8 +5,260 @@
         <description>Recent content in Posts on Tomas Tech Lab</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 10 Nov 2024 21:06:16 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 23 Dec 2024 07:38:37 +0100</lastBuildDate>
         <atom:link href="https://tomastechlab.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>3D Printing with 10mm accuracy</title>
+            <link>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</link>
+            <pubDate>Mon, 23 Dec 2024 07:38:37 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</guid>
+            <description>&lt;p&gt;I know, the title is strange. 3D Printing with 10mm accuracy doesn&amp;rsquo;t really sound that nice does it?
+And in reality, its really not. But this is what is currently happening on my Ender 3v2.
+I just recently converted it to a direct-drive and upgraded the firmware to the latest version.
+So far so good. The upgrades went smooth and my first testprint was due.
+But then it happened. I got the infamous M112 Error.
+For anybody unintiated, M112 is basically the equivalent of a fatal error.
+It stops everything immediately to prevent any damage from happening.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>I know, the title is strange. 3D Printing with 10mm accuracy doesn&rsquo;t really sound that nice does it?
+And in reality, its really not. But this is what is currently happening on my Ender 3v2.
+I just recently converted it to a direct-drive and upgraded the firmware to the latest version.
+So far so good. The upgrades went smooth and my first testprint was due.
+But then it happened. I got the infamous M112 Error.
+For anybody unintiated, M112 is basically the equivalent of a fatal error.
+It stops everything immediately to prevent any damage from happening.</p>
+<p>Luckily for me, it was just a loose cable on my BLTouch.
+But after fixing that I saw another issue.
+Even after leveling the bed, manually or automatically, the Nozzle would stay about 10mm above the bed and just squirts out filament.</p>
+<p>This is the current state of the printer.
+I can send print jobs, it will level the bed if given the G28 code, I can save the and load the Mesh and datawise it looks fine to me.
+But the nozzle refuses to go lower during prints.
+I&rsquo;m pretty sure that there is an z-offset somewhere that I need to adjust. Maybe directly in the firmware?
+I&rsquo;m not sure but this sounds like a fun litte afternoon project to solve.
+Hopefully I can fix this today because I dont want this issue in my head during the holidays.</p>
+<p>We will see, I keep you posted.</p>
+<p>UPDATE(!): I fixed the z-Axis issue. There was indeed a weird z-offset in my firmware. I probably added it myself as I compiled it originally.
+Well, one fix and compile later, I could flash my printer and set the needed z-offset on the printer itself.
+But then I decided to change my hotend and now I have to readjust anything again anyway ¯_(ツ)_/¯</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>What does cleaning up Code mean?</title>
+            <link>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</link>
+            <pubDate>Wed, 04 Dec 2024 10:23:44 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</guid>
+            <description>&lt;p&gt;If you work with developers you might have heard the phrase&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I just need to clean up my code and then its good to go
+or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But what does that actually mean?
+Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>If you work with developers you might have heard the phrase</p>
+<blockquote>
+<p>I just need to clean up my code and then its good to go
+or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.</p>
+</blockquote>
+<p>But what does that actually mean?
+Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?</p>
+<p>The answer might surprise you but its &ldquo;no&rdquo;.
+But what is &ldquo;cleaning code&rdquo; then?</p>
+<p>Its pretty easy to understand but hard to define as it really depends on what the task was.
+But for the sake of simplicity I will give you a simple example and use it to describe what cleaning up code means in this particular case.</p>
+<p>Look at the following Code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#ccc;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#cdcd00">def</span> do_thing(a, b):
+</span></span><span style="display:flex;"><span>    x <span style="color:#39c">=</span> <span style="color:#cd00cd">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#cdcd00">for</span> i <span style="color:#cdcd00">in</span> <span style="color:#cd00cd">range</span>(a):
+</span></span><span style="display:flex;"><span>        x <span style="color:#39c">+=</span> b <span style="color:#39c">*</span> <span style="color:#cd00cd">2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#cdcd00">return</span> x
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>y <span style="color:#39c">=</span> do_thing(<span style="color:#cd00cd">5</span>, <span style="color:#cd00cd">10</span>)
+</span></span><span style="display:flex;"><span><span style="color:#cd00cd">print</span>(y)
+</span></span></code></pre></div><p>Can you tell me what its supposed to do without checking every code path?</p>
+<p>There are several unclean things about this. But lets pick this apart one by one.</p>
+<p>##Function Name</p>
+<p>Starting with the function definition <code>do_thing</code>. Its a great name right? Because everybody knows exactly what it is used for.
+Just put it in your code, call <code>do_thing</code> and it does its thing. Awesome!
+I&rsquo;m being sarcastic here if you havent noticed.
+<code>do_thing</code> is probably one of the worst names a function can have. The only times I would consider it a valid name when its context is always clear or it will be changed before anybody else gets access to it. Therefore, after it is <em>cleaned</em>.</p>
+<p>Even <code>calculate</code> would be a better name, but not the best, in this case.
+So clean code has <em>understandable function names</em></p>
+<p>##Variables</p>
+<p>Whats next? Can you tell me what the variables a, b, x or y are used for? Or what values they store? Without checking each usage?
+Just as I thought, the answer is most likely no.</p>
+<p>Much better names, but still maybe not perfect, would be
+a - multiplier
+b - iterations
+x - sum or total
+y - calculated_sum or result</p>
+<p>This would make the code much more readable and understandable on what its purpose is.</p>
+<h2 id="it-just-works-please-use-types-if-possible">It just works! Please use types if possible</h2>
+<p>Did you realize that this code will always work? I mean, like always always? Thats the power of typeless programming!
+Want to multiply &lsquo;a&rsquo;? We got you.
+Want to multiply with a hash? No worries.
+As this is such a great function, it will handle all these things and more!</p>
+<p>I&rsquo;m being sarcastic again. I&rsquo;m an advocate for strongly typed variables and in this case we can add them safely.
+I know that there are edge cases where you might not be able to add types. But this mostly because either the language you use simply has no types (looking at you php 5.6 and javascript) or your code base is somehow in such a messy state that nobody, not even your compiler/interpreter, can tell what data is supposed to be in a variable.</p>
+<p>This will prevent a lot of errors when using this function. In our example we only add one datatype to the codebase. Integers.
+We could maybe add floats but then I would say make &rsquo;em all floats or leave it.</p>
+<p>But for the sake of simplicity we just use ints here.</p>
+<h2 id="sugar">Sugar</h2>
+<p>What I mean by sugar is output and comments.
+Output is for the user (maybe for other developers if we talk about error messages) and comments are for developers who want to use this function.</p>
+<h3 id="user-output">User Output</h3>
+<p>Lets improve the output first.
+Instead of just putting the result on the commandline we should add some context to it.
+Maybe prefix the value by something like: &ldquo;The calculated total is: &quot;
+This would give a bit of context to what the number on the screen actually is. Even better would be something like
+&ldquo;The calculated output of {multiplier} after {interations} interations is {result}&rdquo;
+This would add even more context to what happend behind the scenes.</p>
+<h3 id="comments">Comments</h3>
+<p>If you like, you can comment your code. But this is a trait in itself. Good comments help to understand the code and its useage.
+Bad comments explain what the code does.
+Code usually explains itself if written properly. Most of the time there is no need to explain what a function does internally.
+What matters more is &ldquo;What parameters does this function accept?&rdquo; and &ldquo;What will be returned by the function?&rdquo;
+If these two questions are answered, I bet most developers are able to use it.
+A good comment for our funtion would maybe be something like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#ccc;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Calculate the total value by incrementing a sum based on the multiplier.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Args:
+</span></span><span style="display:flex;"><span>    multiplier (int): Number of iterations to perform.
+</span></span><span style="display:flex;"><span>    increment (int): Value to multiply and add during each iteration.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Returns:
+</span></span><span style="display:flex;"><span>    int: The calculated total value.
+</span></span></code></pre></div><p>This comment exlains what I can pass into the function and for what purpose.
+And it also tells me what the function returns, if successful.
+There is even a little description of the purpose this function serves.</p>
+<h3 id="errors">Errors</h3>
+<p>As already mentioned this does not only apply to outout that is meant for the user. Error Messages are a very important tool in finding issues with the code or even specific values that get passed into the function.
+So make sure to add as much context as possible to an Error BUT(!) be careful with this. Not every bit of context is helpful.
+Always show enough information on your error to understand what went wrong and why it (most likely) went wrong.</p>
+<h2 id="cleaning-up-code">Cleaning up Code</h2>
+<p>All these steps are done when cleaning up code. Their might be more, depending on the project and code.
+But what cleaning up code roughly means is to make sure that code is readable and usable in the foreseeable future.
+Not only for the developer that creates the code, but mostly for developers that will need to read or use the code later.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>After all, my suggestions are discussed widely on the internet and in meetings around the world. You can find a lot (and I mean A LOT!) of information on every single aspect of what I listed out here.
+But what they all have in common is a baseline that I like to summarize as</p>
+<blockquote>
+<p>&ldquo;Write your code as if the next one that has to work with it is a psychopathic axe murderer and he knows where you live&rdquo;</p>
+</blockquote>
+<p>No sarcasm this time (ok, maybe a little bit). But you get the point.
+Write nice code if possible and dont make the life of others hard on purpose.</p>
+<p>Before I forget, here is a cleaned version of the code from above.
+It is not perfect at all, but still way better than the original:</p>
+<div class="highlight"><pre tabindex="0" style="color:#ccc;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#cdcd00">def</span> calculate_total(multiplier: <span style="color:#cd00cd">int</span>, increment: <span style="color:#cd00cd">int</span>) <span style="color:#39c">-&gt;</span> <span style="color:#cd00cd">int</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#cd0000">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">    Calculate the total value by incrementing a sum based on the multiplier.
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">    Args:
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">        multiplier (int): Number of iterations to perform.
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">        increment (int): Value to multiply and add during each iteration.
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">    Returns:
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">        int: The calculated total value.
+</span></span></span><span style="display:flex;"><span><span style="color:#cd0000">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    total <span style="color:#39c">=</span> <span style="color:#cd00cd">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#cdcd00">for</span> _ <span style="color:#cdcd00">in</span> <span style="color:#cd00cd">range</span>(multiplier):
+</span></span><span style="display:flex;"><span>        total <span style="color:#39c">+=</span> increment <span style="color:#39c">*</span> <span style="color:#cd00cd">2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#cdcd00">return</span> total
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000080"># TODO: make this configurable by the user</span>
+</span></span><span style="display:flex;"><span>    iterations <span style="color:#39c">=</span> <span style="color:#cd00cd">5</span>
+</span></span><span style="display:flex;"><span>    increment_value <span style="color:#39c">=</span> <span style="color:#cd00cd">10</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000080"># Perform calculation</span>
+</span></span><span style="display:flex;"><span>    total_value <span style="color:#39c">=</span> calculate_total(iterations, increment_value)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#000080"># Output the result</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#cd00cd">print</span>(<span style="color:#cd0000">f</span><span style="color:#cd0000">&#34;The calculated output of </span><span style="color:#cd0000">{</span>multiplier<span style="color:#cd0000">}</span><span style="color:#cd0000"> after </span><span style="color:#cd0000">{</span>interations<span style="color:#cd0000">}</span><span style="color:#cd0000"> interations is </span><span style="color:#cd0000">{</span>total_value<span style="color:#cd0000">}</span><span style="color:#cd0000">&#34;</span>)
+</span></span></code></pre></div>]]></content>
+        </item>
+        
+        <item>
+            <title>His/My/Our complicated blog setup</title>
+            <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+            <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+            <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.
+Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles
+the way I do it.&lt;/p&gt;
+&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hugo&lt;/li&gt;
+&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;
+&lt;li&gt;bash (scp)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and thats basically it.
+This is the general workflow I use:&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>If you&rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.
+Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles
+the way I do it.</p>
+<p>For starters, this is the software I use:</p>
+<ul>
+<li>hugo</li>
+<li>editor of my choice (currently vscode)</li>
+<li>bash (scp)</li>
+</ul>
+<p>and thats basically it.
+This is the general workflow I use:</p>
+<ul>
+<li>create a new post via <code>hugo new post posts/my-cool-new-entry.md</code> on the CLI</li>
+<li>write the new post (fill with content, adjust tags and headline&hellip; and so on)</li>
+<li>execute my deploy script</li>
+</ul>
+<p>The most magical thing in here might be my deploy script. Which is essentially just a scp command which syncs my local folder to my webhost. No, not <a href="https://scp-wiki.wikidot.com/">THAT SCP</a> I&rsquo;m talking about <a href="https://manpages.org/scp">THIS SCP</a>
+And thats it. This is how I publish my blogposts.
+There is one additional step that I havent mentioned yet but its not vital to create a new post.
+I also use git as kind of a &ldquo;backup&rdquo; solution in case I lose my machine or access to it or everthing goes up in flames&hellip; you never know.
+Besides that I also use regular backups (of course! and you should too!) but its a nice convinient solution to be able to just clone my blog and work on it anywhere if needed.</p>
+<p>What triggered me to create this post was a <a href="https://www.youtube.com/watch?v=dnE7c0ELEH8">youtube video by NetworkChuck</a> where he explains on how and why he has started a blog and explains how he has set it up so you can follow along and do the same.
+His solution is way more engineered than mine as he wants to use <a href="https://obsidian.md/">Obsidian</a> as his post editor of choice (and thats totally fine if you ask me).
+So if you want to blog yourself and automate the publishing process you now have at least two options on how to do it. But you can always use other software and tools to publish your content.
+What matters in the end is that if you want to publish something, you can. And it should not be to difficult for you and fit your flow.
+For me this solution works, for you it might be something else.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Why No Comments</title>
+            <link>https://tomastechlab.com/posts/why-no-comments/</link>
+            <pubDate>Mon, 11 Nov 2024 20:39:03 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/why-no-comments/</guid>
+            <description>&lt;p&gt;This blog ist just my little outlet for the time when I fell like writing something.
+Its not really meant for others to read but its online anyway as there might be someone on this
+lovely blue ball in the universe that might find some particular detail interesting enogh to read about it
+on my blog.
+Besides that I dont really expect a lot of traffic on here.
+Heck, I dont even have userstats or analytics in any way for this site.
+Sure I could aggregate the data from my server logs but thats more of a tedious task on a bored winter night or something.
+Thats the exact same reason why I dont have comments enabled on here.
+Its not that the blogging platform I use isn&amp;rsquo;t capable of it. Its just a flag I decided to turn off on purpose.
+I dont expect people to have strong oppionions on the stuff I write or that they want to comment on my thoughts in any way.
+And if there is someone who really wants to tell me how they feel about a certain topic, there is always my email address on the frontpage.
+And there you have it. The reason I dont have comments enabled and why I probably will never turn them on.
+Just putting this out there so I can reference it if somebody at some time should ask or wonder about it.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>This blog ist just my little outlet for the time when I fell like writing something.
+Its not really meant for others to read but its online anyway as there might be someone on this
+lovely blue ball in the universe that might find some particular detail interesting enogh to read about it
+on my blog.
+Besides that I dont really expect a lot of traffic on here.
+Heck, I dont even have userstats or analytics in any way for this site.
+Sure I could aggregate the data from my server logs but thats more of a tedious task on a bored winter night or something.
+Thats the exact same reason why I dont have comments enabled on here.
+Its not that the blogging platform I use isn&rsquo;t capable of it. Its just a flag I decided to turn off on purpose.
+I dont expect people to have strong oppionions on the stuff I write or that they want to comment on my thoughts in any way.
+And if there is someone who really wants to tell me how they feel about a certain topic, there is always my email address on the frontpage.
+And there you have it. The reason I dont have comments enabled and why I probably will never turn them on.
+Just putting this out there so I can reference it if somebody at some time should ask or wonder about it.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Hosted in the Woods</title>

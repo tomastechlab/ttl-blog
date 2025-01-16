@@ -2,25 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tomastechlab.com/posts/</loc>
-    <lastmod>2024-11-10T21:06:16+01:00</lastmod>
+    <loc>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</loc>
+    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/</loc>
-    <lastmod>2024-11-10T21:06:16+01:00</lastmod>
+    <loc>https://tomastechlab.com/tags/3dprinting/</loc>
+    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/tags/homelab/</loc>
-    <lastmod>2024-10-28T19:55:29+01:00</lastmod>
+    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/hosted-in-the-woods/</loc>
-    <lastmod>2024-10-28T19:55:29+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/hosting/</loc>
-    <lastmod>2024-10-28T19:55:29+01:00</lastmod>
+    <loc>https://tomastechlab.com/posts/</loc>
+    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/tags/projects/</loc>
-    <lastmod>2024-10-28T19:55:29+01:00</lastmod>
+    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/tags/</loc>
+    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/</loc>
+    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/tags/code/</loc>
+    <lastmod>2024-12-04T10:23:44+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</loc>
+    <lastmod>2024-12-04T10:23:44+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/tags/blog/</loc>
+    <lastmod>2024-11-28T10:07:25+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</loc>
+    <lastmod>2024-11-28T10:07:25+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/tags/hosting/</loc>
+    <lastmod>2024-11-28T10:07:25+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/tags/private/</loc>
+    <lastmod>2024-11-11T20:39:03+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/posts/why-no-comments/</loc>
+    <lastmod>2024-11-11T20:39:03+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/posts/hosted-in-the-woods/</loc>
     <lastmod>2024-10-28T19:55:29+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/posts/updates/</loc>

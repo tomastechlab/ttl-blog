@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Tomas Tech Lab</title>
+    <link>https://tomastechlab.com/tags/blog/</link>
+    <description>Recent content in Blog on Tomas Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2024 10:07:25 +0100</lastBuildDate>
+    <atom:link href="https://tomastechlab.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>His/My/Our complicated blog setup</title>
+      <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+      <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.&#xA;Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles&#xA;the way I do it.&lt;/p&gt;&#xA;&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hugo&lt;/li&gt;&#xA;&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;&#xA;&lt;li&gt;bash (scp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and thats basically it.&#xA;This is the general workflow I use:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

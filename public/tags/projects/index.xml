@@ -6,8 +6,22 @@
     <description>Recent content in Projects on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Oct 2024 19:55:29 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 07:38:37 +0100</lastBuildDate>
     <atom:link href="https://tomastechlab.com/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Printing with 10mm accuracy</title>
+      <link>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</link>
+      <pubDate>Mon, 23 Dec 2024 07:38:37 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</guid>
+      <description>&lt;p&gt;I know, the title is strange. 3D Printing with 10mm accuracy doesn&amp;rsquo;t really sound that nice does it?&#xA;And in reality, its really not. But this is what is currently happening on my Ender 3v2.&#xA;I just recently converted it to a direct-drive and upgraded the firmware to the latest version.&#xA;So far so good. The upgrades went smooth and my first testprint was due.&#xA;But then it happened. I got the infamous M112 Error.&#xA;For anybody unintiated, M112 is basically the equivalent of a fatal error.&#xA;It stops everything immediately to prevent any damage from happening.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>His/My/Our complicated blog setup</title>
+      <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+      <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.&#xA;Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles&#xA;the way I do it.&lt;/p&gt;&#xA;&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hugo&lt;/li&gt;&#xA;&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;&#xA;&lt;li&gt;bash (scp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and thats basically it.&#xA;This is the general workflow I use:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hosted in the Woods</title>
       <link>https://tomastechlab.com/posts/hosted-in-the-woods/</link>

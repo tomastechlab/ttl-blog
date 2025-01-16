@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Tomas Tech Lab</title>
+    <link>https://tomastechlab.com/tags/code/</link>
+    <description>Recent content in Code on Tomas Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Dec 2024 10:23:44 +0100</lastBuildDate>
+    <atom:link href="https://tomastechlab.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What does cleaning up Code mean?</title>
+      <link>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</link>
+      <pubDate>Wed, 04 Dec 2024 10:23:44 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</guid>
+      <description>&lt;p&gt;If you work with developers you might have heard the phrase&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I just need to clean up my code and then its good to go&#xA;or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;But what does that actually mean?&#xA;Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

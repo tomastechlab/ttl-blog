@@ -6,8 +6,36 @@
     <description>Recent content on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Oct 2024 19:55:29 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 07:38:37 +0100</lastBuildDate>
     <atom:link href="https://tomastechlab.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Printing with 10mm accuracy</title>
+      <link>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</link>
+      <pubDate>Mon, 23 Dec 2024 07:38:37 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</guid>
+      <description>&lt;p&gt;I know, the title is strange. 3D Printing with 10mm accuracy doesn&amp;rsquo;t really sound that nice does it?&#xA;And in reality, its really not. But this is what is currently happening on my Ender 3v2.&#xA;I just recently converted it to a direct-drive and upgraded the firmware to the latest version.&#xA;So far so good. The upgrades went smooth and my first testprint was due.&#xA;But then it happened. I got the infamous M112 Error.&#xA;For anybody unintiated, M112 is basically the equivalent of a fatal error.&#xA;It stops everything immediately to prevent any damage from happening.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What does cleaning up Code mean?</title>
+      <link>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</link>
+      <pubDate>Wed, 04 Dec 2024 10:23:44 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</guid>
+      <description>&lt;p&gt;If you work with developers you might have heard the phrase&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I just need to clean up my code and then its good to go&#xA;or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;But what does that actually mean?&#xA;Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>His/My/Our complicated blog setup</title>
+      <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+      <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.&#xA;Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles&#xA;the way I do it.&lt;/p&gt;&#xA;&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hugo&lt;/li&gt;&#xA;&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;&#xA;&lt;li&gt;bash (scp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and thats basically it.&#xA;This is the general workflow I use:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why No Comments</title>
+      <link>https://tomastechlab.com/posts/why-no-comments/</link>
+      <pubDate>Mon, 11 Nov 2024 20:39:03 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/why-no-comments/</guid>
+      <description>&lt;p&gt;This blog ist just my little outlet for the time when I fell like writing something.&#xA;Its not really meant for others to read but its online anyway as there might be someone on this&#xA;lovely blue ball in the universe that might find some particular detail interesting enogh to read about it&#xA;on my blog.&#xA;Besides that I dont really expect a lot of traffic on here.&#xA;Heck, I dont even have userstats or analytics in any way for this site.&#xA;Sure I could aggregate the data from my server logs but thats more of a tedious task on a bored winter night or something.&#xA;Thats the exact same reason why I dont have comments enabled on here.&#xA;Its not that the blogging platform I use isn&amp;rsquo;t capable of it. Its just a flag I decided to turn off on purpose.&#xA;I dont expect people to have strong oppionions on the stuff I write or that they want to comment on my thoughts in any way.&#xA;And if there is someone who really wants to tell me how they feel about a certain topic, there is always my email address on the frontpage.&#xA;And there you have it. The reason I dont have comments enabled and why I probably will never turn them on.&#xA;Just putting this out there so I can reference it if somebody at some time should ask or wonder about it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hosted in the Woods</title>
       <link>https://tomastechlab.com/posts/hosted-in-the-woods/</link>
