@@ -4,7 +4,7 @@ date: 2024-10-28T19:55:29+01:00
 tags: ["hosting","homelab","projects"]
 draft: false
 ---
-Guess what happened.. I got rid of my expensive server in the datacenter. Ther very server that is hosting this site.
+Guess what happened.. I got rid of my expensive server in the datacenter. The very server that is hosting this site.
 But how? You might ask. Good question! I would like to explain everything in detail but... lets be honest, I would mess up
 and dox myself on the internet. 
 But I can give you the gist of it. 

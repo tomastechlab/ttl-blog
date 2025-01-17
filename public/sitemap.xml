@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tomastechlab.com/tags/hardware/</loc>
+    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/tags/homelab/</loc>
+    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/posts/</loc>
+    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/tags/server/</loc>
+    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/tags/</loc>
+    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/</loc>
+    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/posts/updates-to-the-homelab/</loc>
+    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
+  </url><url>
     <loc>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</loc>
     <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/tags/3dprinting/</loc>
     <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/homelab/</loc>
-    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/posts/</loc>
-    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
-  </url><url>
     <loc>https://tomastechlab.com/tags/projects/</loc>
-    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/</loc>
-    <lastmod>2024-12-23T07:38:37+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/</loc>
     <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/tags/code/</loc>
