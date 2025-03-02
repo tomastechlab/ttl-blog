@@ -5,8 +5,46 @@
         <description>Recent content in Posts on Tomas Tech Lab</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 17 Jan 2025 10:16:00 +0100</lastBuildDate>
+        <lastBuildDate>Sun, 02 Mar 2025 13:22:36 +0100</lastBuildDate>
         <atom:link href="https://tomastechlab.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Struggling to keep it up?</title>
+            <link>https://tomastechlab.com/posts/struggling-to-keep-it-up/</link>
+            <pubDate>Sun, 02 Mar 2025 13:22:36 +0100</pubDate>
+            
+            <guid>https://tomastechlab.com/posts/struggling-to-keep-it-up/</guid>
+            <description>&lt;p&gt;As you may have noticed, I&amp;rsquo;ve been struggling to keep my blog up from time to time.
+I want to explain why that is and what I do to prevent it.
+First of all, I am hosting this at my home. Which means whenever my home network goes down, my blog is down too.
+Usually this is not a problem at all because I dont tinker with the network that much.
+But recently I switched a few devices around and swapped basically my whole network gear.
+As you might know I live in a quite old house and I want to make it as smart as I am able to.
+Therefore I realized that I need to seperate my network quite a bit more than it already was.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>As you may have noticed, I&rsquo;ve been struggling to keep my blog up from time to time.
+I want to explain why that is and what I do to prevent it.
+First of all, I am hosting this at my home. Which means whenever my home network goes down, my blog is down too.
+Usually this is not a problem at all because I dont tinker with the network that much.
+But recently I switched a few devices around and swapped basically my whole network gear.
+As you might know I live in a quite old house and I want to make it as smart as I am able to.
+Therefore I realized that I need to seperate my network quite a bit more than it already was.</p>
+<p>Before I had 2 networks which were able to talk with eachother but only one was able to connect to the internet.
+Now I have 3 networks and still only one is able to connect to the internet.
+This is on purpose, so I can use on machine on the internet accessible network as a firewall/gateway and dont have to
+worry about the other networks being exposed.</p>
+<p>This makes it a lot easier to keep my blog up and running.
+As even the machine I use to host the blog is seperated from the other services. If I have the time I will draw up a
+network diagram of everything, but this wont be accurate right now as I am still working on it and adding more services and devices.</p>
+<p>Currently I am working on my own Voice activated Home Assistant, which many people have done before me and there are a lot of
+&ldquo;spin up and run&rdquo; solutions out there. But none of them really seem to the right choice for me.
+I will talk about it more in detail when its ready for a test deployment, but for now there is still a lot of soft3ware to write and a
+lot of hardware to be build which I plan to deploy around the house.</p>
+<p>But back to the topic of this entry.
+With the sepeartiojn of concerns in my network I&rsquo;m hopefully able to keep my blog up without too much hassle, even if some parts of my network goes down.
+We will see how this works out in the next few days when I will do a desaster/recovery test of my whole system.
+I will also let you know how it went.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Updates to the Homelab</title>
@@ -42,6 +80,14 @@ Because in the future I would like to use this machine as some sort of proxy/gat
 I will write about my (hopefully boring) adventure of cloning my current system to the new harddrive but first I have to do it.
 All parts are in the mail and I am waiting to receive everything in a few days.</p>
 <p>Lets hope this will work <em>fingers crossed</em></p>
+<p>UPDATE:
+I received all parts for my homelab upgrade. And if you can read this it means that everything is at least running again.
+I wasnt able to update all the components like I wanted to but the CPU and Harddrive are working.
+For some reason the machine refuses to boot with the new RAM. I checked the manual and the vendor page for compatibility but couldnt find anyth9ing that would speak against this amount of RAM.
+I have one more idea as to why its not working and that might be the BIOS version. I never updated the BIOS on that machine and maybe a newer version extends the comaptibility of possible RAM sticks.
+The issue is that this is a headless system. Meaning I dont have a screen or peripherals attached to it. There is just the ethernet connection, a usb connection to a NAS and the power line.
+But I recently heard something about a jetkvm oder nanokvm or something which is apparently a low cost kvm solution that provides I/O over ethernet.
+I will have to take a closer look at possible solutions because from what I saw the current solutions are using HDMI for screen output and my machine only has DP.</p>
 ]]></content>
         </item>
         
@@ -90,15 +136,13 @@ But then I decided to change my hotend and now I have to readjust anything again
             <description>&lt;p&gt;If you work with developers you might have heard the phrase&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I just need to clean up my code and then its good to go
-or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.&lt;/p&gt;
-&lt;/blockquote&gt;
+or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;But what does that actually mean?
 Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>If you work with developers you might have heard the phrase</p>
 <blockquote>
 <p>I just need to clean up my code and then its good to go
-or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.</p>
-</blockquote>
+or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.</p></blockquote>
 <p>But what does that actually mean?
 Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?</p>
 <p>The answer might surprise you but its &ldquo;no&rdquo;.
@@ -182,8 +226,7 @@ Not only for the developer that creates the code, but mostly for developers that
 <p>After all, my suggestions are discussed widely on the internet and in meetings around the world. You can find a lot (and I mean A LOT!) of information on every single aspect of what I listed out here.
 But what they all have in common is a baseline that I like to summarize as</p>
 <blockquote>
-<p>&ldquo;Write your code as if the next one that has to work with it is a psychopathic axe murderer and he knows where you live&rdquo;</p>
-</blockquote>
+<p>&ldquo;Write your code as if the next one that has to work with it is a psychopathic axe murderer and he knows where you live&rdquo;</p></blockquote>
 <p>No sarcasm this time (ok, maybe a little bit). But you get the point.
 Write nice code if possible and dont make the life of others hard on purpose.</p>
 <p>Before I forget, here is a cleaned version of the code from above.

@@ -6,8 +6,15 @@
     <description>Recent content on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 10:16:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 02 Mar 2025 13:22:36 +0100</lastBuildDate>
     <atom:link href="https://tomastechlab.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Struggling to keep it up?</title>
+      <link>https://tomastechlab.com/posts/struggling-to-keep-it-up/</link>
+      <pubDate>Sun, 02 Mar 2025 13:22:36 +0100</pubDate>
+      <guid>https://tomastechlab.com/posts/struggling-to-keep-it-up/</guid>
+      <description>&lt;p&gt;As you may have noticed, I&amp;rsquo;ve been struggling to keep my blog up from time to time.&#xA;I want to explain why that is and what I do to prevent it.&#xA;First of all, I am hosting this at my home. Which means whenever my home network goes down, my blog is down too.&#xA;Usually this is not a problem at all because I dont tinker with the network that much.&#xA;But recently I switched a few devices around and swapped basically my whole network gear.&#xA;As you might know I live in a quite old house and I want to make it as smart as I am able to.&#xA;Therefore I realized that I need to seperate my network quite a bit more than it already was.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Updates to the Homelab</title>
       <link>https://tomastechlab.com/posts/updates-to-the-homelab/</link>
@@ -27,7 +34,7 @@
       <link>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</link>
       <pubDate>Wed, 04 Dec 2024 10:23:44 +0100</pubDate>
       <guid>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</guid>
-      <description>&lt;p&gt;If you work with developers you might have heard the phrase&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I just need to clean up my code and then its good to go&#xA;or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;But what does that actually mean?&#xA;Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you work with developers you might have heard the phrase&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I just need to clean up my code and then its good to go&#xA;or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;But what does that actually mean?&#xA;Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?&lt;/p&gt;</description>
     </item>
     <item>
       <title>His/My/Our complicated blog setup</title>

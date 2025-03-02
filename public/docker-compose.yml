@@ -7,3 +7,4 @@ services:
       - "8083:80"
     environment:
       - NGINX_HOST=tomastechlab.com
+    restart: always

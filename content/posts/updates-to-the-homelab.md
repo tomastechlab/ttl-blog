@@ -38,3 +38,12 @@ I will write about my (hopefully boring) adventure of cloning my current system 
 All parts are in the mail and I am waiting to receive everything in a few days. 
 
 Lets hope this will work *fingers crossed*  
+
+UPDATE:
+I received all parts for my homelab upgrade. And if you can read this it means that everything is at least running again. 
+I wasnt able to update all the components like I wanted to but the CPU and Harddrive are working. 
+For some reason the machine refuses to boot with the new RAM. I checked the manual and the vendor page for compatibility but couldnt find anyth9ing that would speak against this amount of RAM. 
+I have one more idea as to why its not working and that might be the BIOS version. I never updated the BIOS on that machine and maybe a newer version extends the comaptibility of possible RAM sticks. 
+The issue is that this is a headless system. Meaning I dont have a screen or peripherals attached to it. There is just the ethernet connection, a usb connection to a NAS and the power line. 
+But I recently heard something about a jetkvm oder nanokvm or something which is apparently a low cost kvm solution that provides I/O over ethernet. 
+I will have to take a closer look at possible solutions because from what I saw the current solutions are using HDMI for screen output and my machine only has DP.   

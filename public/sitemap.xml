@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tomastechlab.com/tags/hosting/</loc>
+    <lastmod>2025-03-02T13:22:36+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/posts/</loc>
+    <lastmod>2025-03-02T13:22:36+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/posts/struggling-to-keep-it-up/</loc>
+    <lastmod>2025-03-02T13:22:36+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/tags/</loc>
+    <lastmod>2025-03-02T13:22:36+01:00</lastmod>
+  </url><url>
+    <loc>https://tomastechlab.com/</loc>
+    <lastmod>2025-03-02T13:22:36+01:00</lastmod>
+  </url><url>
     <loc>https://tomastechlab.com/tags/hardware/</loc>
     <lastmod>2025-01-17T10:16:00+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/tags/homelab/</loc>
     <lastmod>2025-01-17T10:16:00+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/</loc>
-    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
-  </url><url>
     <loc>https://tomastechlab.com/tags/server/</loc>
-    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/</loc>
-    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/</loc>
     <lastmod>2025-01-17T10:16:00+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/posts/updates-to-the-homelab/</loc>
@@ -42,9 +48,6 @@
     <lastmod>2024-11-28T10:07:25+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</loc>
-    <lastmod>2024-11-28T10:07:25+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/hosting/</loc>
     <lastmod>2024-11-28T10:07:25+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/tags/private/</loc>
@@ -110,10 +113,10 @@
     <loc>https://tomastechlab.com/tags/first-entry/</loc>
     <lastmod>2024-03-05T19:12:19+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/hello-world/</loc>
+    <loc>https://tomastechlab.com/posts/hello-world/</loc>
     <lastmod>2024-03-05T19:12:19+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/hello-world/</loc>
+    <loc>https://tomastechlab.com/tags/hello-world/</loc>
     <lastmod>2024-03-05T19:12:19+01:00</lastmod>
   </url><url>
     <loc>https://tomastechlab.com/tags/welcome/</loc>
