@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/hardware/</link>
+    <link>http://localhost:1313/tags/hardware/</link>
     <description>Recent content in Hardware on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Jan 2025 10:16:00 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Updates to the Homelab</title>
-      <link>https://tomastechlab.com/posts/updates-to-the-homelab/</link>
+      <link>http://localhost:1313/posts/updates-to-the-homelab/</link>
       <pubDate>Fri, 17 Jan 2025 10:16:00 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/updates-to-the-homelab/</guid>
+      <guid>http://localhost:1313/posts/updates-to-the-homelab/</guid>
       <description>&lt;p&gt;I just recently decided to upgrade my homelab once again. Especially my trusy little &amp;ldquo;Service&amp;rdquo;-Machine. You remember? The one I wrote about in my &lt;a href=&#34;../hosted-in-the-woods&#34;&gt;Hosted in the woods&lt;/a&gt; entry.&#xA;It will be basically the same system but I want to upgrade the hardware.&#xA;Currently it is running on a small i3-6100T machine with about 16gigs of RAM and a SSHD Harddrive.&#xA;Why is it so low spec&amp;rsquo;d you might ask. Good question!&#xA;First of all: for what I am doing with this machine I dont really need much computing power or massive amounts of RAM.&lt;/p&gt;</description>
     </item>
   </channel>

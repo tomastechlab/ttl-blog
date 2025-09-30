@@ -2,109 +2,158 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Mar 2025 10:09:30 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Sep 2025 17:09:48 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The first Steps</title>
+      <link>http://localhost:1313/posts/the-first-steps/</link>
+      <pubDate>Mon, 29 Sep 2025 17:09:48 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-first-steps/</guid>
+      <description>&lt;p&gt;I already wrote about my decision to start something fresh. Something new. Something fun.&lt;/p&gt;&#xA;&lt;p&gt;And today I did the first step for that. It does not seem much but from now on its real.&#xA;As I have to get everything in order with the German government because&amp;hellip; taxes I guess.&#xA;I started today by filing for a new tax ID and verified myself for a new bank account.&#xA;This is a very weird endeavor that someone that wants to start working in Germany needs to do.&#xA;The Country itself isn&amp;rsquo;t so bad I think.&#xA;But the bureaucratic hoops one has to go through just because he/she wants to work in this country is sometimes very ridiculous.&#xA;I just learned the other day that you are not allowed to create a company and work for 0 bucks just because you love what you do.&#xA;Okay 0 bucks would be very strange but even if you don&amp;rsquo;t earn as much as someone else (the finance department) decides you should, your company can get shut down.&#xA;I really don&amp;rsquo;t know why it is like this but its real and its somewhat nuts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Party-Pub to Office-Space</title>
+      <link>http://localhost:1313/posts/from-party-pub-to-office-space/</link>
+      <pubDate>Tue, 16 Sep 2025 11:11:07 +0200</pubDate>
+      <guid>http://localhost:1313/posts/from-party-pub-to-office-space/</guid>
+      <description>&lt;p&gt;Imagine the following: You have a small house on your property. Not a full house you can live in, more like a bigger garden shed or a small pool house (without the pool&amp;hellip;.yet).&lt;/p&gt;&#xA;&lt;p&gt;Got it? Alright. This is what I am working with. Or better: This is where I am working in.&lt;/p&gt;&#xA;&lt;p&gt;So far this small space was used as a party room / private pub. Including everything, you can image.&#xA;Fridge, Bar, Stools, Table&amp;hellip; and everything in a cozy pub like lighting.&#xA;Seemed nice and I really liked it, but it is time for something new.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Time for something new (again)</title>
+      <link>http://localhost:1313/posts/time-for-something-new-again/</link>
+      <pubDate>Mon, 01 Sep 2025 17:01:33 +0200</pubDate>
+      <guid>http://localhost:1313/posts/time-for-something-new-again/</guid>
+      <description>&lt;p&gt;I guess its time for me to move on, because everything is fucked.&#xA;In terms of work and employment at least. But its not that easy for me.&#xA;Let me explain and start from the beginning:&lt;/p&gt;&#xA;&lt;p&gt;Its 2018: I just lost my last job in a huge agency and was in between jobs when I decided that its time for me to do freelancing.&#xA;Being my own boss was something that always wanted. And now there was my oppoprtunity.&#xA;So I started as a freelancer. Asked the government for a tax id and started to work.&#xA;I was on my own, there was no plan b and as a motivation my wife just gave birth to our daughter.&#xA;But I had a blast. I worked with way more motivation that before and, what surprised me the most, I had fun.&#xA;Actual, real fun. I created stuff. I was creative in ways I never imagined. Heck, I even had a proper instagram account that I regularly used and published stuff on. And people who know me personally would never expect some kind of social media work from me.&#xA;It was a great time and I really enjoyed it.&#xA;Then, about a year later, I wanted to push it to the next level.&#xA;So I grabbed my best friend of that time and asked him if he wants to found an agency for webdevelopment with me.&#xA;He was hesitant at first but as me and him both could bring in customers from our previous work there should be no issue to get started and be profitable from day 0.&#xA;And so we began. We used the name that I already was working under (Codezilla IT-Consulting) and then we kept working, we grew as a company over the years and now, after around 6 years, we are about 10 people. It wasnt always easy but we managed to push through.&#xA;And all that without any venture capital or other sources of income.&#xA;It feels great.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I made an Oopsie and PoE is not Wifi</title>
+      <link>http://localhost:1313/posts/i-made-an-oopsie-and-poe-is-not-wifi/</link>
+      <pubDate>Tue, 05 Aug 2025 14:25:29 +0200</pubDate>
+      <guid>http://localhost:1313/posts/i-made-an-oopsie-and-poe-is-not-wifi/</guid>
+      <description>&lt;p&gt;Do you kow the feeling when you think you have figured out something but then you are completely wrong about it and then realize that if you had been more coreful in the first place you could have prevented it?&lt;/p&gt;&#xA;&lt;p&gt;That just happened to me.&#xA;Nothing big, just an oversight. An obvbious one.&#xA;As you might know (or not) I bought an old House a few years ago. And my mission with it is to make it smart. Piece by piece, little by little.&#xA;So far so good. I pull network cables, I configure appliances, add them to my Home Assistant Network&amp;hellip; and all works great.&#xA;Mostly, sometimes, if I care enough about it.&#xA;As I also run my own AI RIG at home I try to make it &amp;ldquo;understand&amp;rdquo; certain phrases and trigger speicif routines. But all that is beside the point.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A New Hope (kinda)</title>
+      <link>http://localhost:1313/posts/a-new-hope-kinda/</link>
+      <pubDate>Wed, 16 Jul 2025 15:59:34 +0200</pubDate>
+      <guid>http://localhost:1313/posts/a-new-hope-kinda/</guid>
+      <description>&lt;p&gt;I am on the brink of a new work related project. And at first glance there is no real issue with it.&#xA;I com to this conclusion because of a few factors:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;i am currently looking for work&lt;/li&gt;&#xA;&lt;li&gt;the projects tech-stack perfectly fits my tech stack&lt;/li&gt;&#xA;&lt;li&gt;i was able to talk to the people involved in the project&lt;/li&gt;&#xA;&lt;li&gt;the payment is okay-ish&lt;/li&gt;&#xA;&lt;li&gt;there is a perspective of future projects with that client&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This combination of facts makes it impossible for me to ignore it.&#xA;But there is something that makes my spidersense tingling. Nothing too big but it makes me be cautios of possible endeveaures.&#xA;I think its my 4. point, but maybe not for the reasons you might initially think.&#xA;The payment for my work is fixed. There is no more negotiation about that, so everything is alright&amp;hellip; right?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leaving a Government Project</title>
+      <link>http://localhost:1313/posts/leaving-a-government-project/</link>
+      <pubDate>Wed, 02 Jul 2025 19:00:54 +0200</pubDate>
+      <guid>http://localhost:1313/posts/leaving-a-government-project/</guid>
+      <description>&lt;p&gt;Guess what happened.&#xA;I got &amp;ldquo;fired&amp;rdquo; from my government project. Well, its not really fired. I was on probation for 6 months and at the end of this 6 months they decided that I wasnt good enough (I guess??).&lt;/p&gt;&#xA;&lt;p&gt;The thing is, I dont really know why the let me go.&#xA;I asked for reasons twice and didnt get an answer.&#xA;Its okay, from my side, as I didnt really liked the work and the environment anyway, but I would really like to know what&#xA;the real reason was that lead them to the decision that I have to leave.&#xA;Someone said it was due to my code quality or lack of standards, but in my (most likely biased) opinion.&#xA;There was no such thing as lacking code quality or lack of standards in my work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>We Are on Github Now</title>
+      <link>http://localhost:1313/posts/we-are-on-github-now/</link>
+      <pubDate>Tue, 27 May 2025 12:01:21 +0200</pubDate>
+      <guid>http://localhost:1313/posts/we-are-on-github-now/</guid>
+      <description>&lt;p&gt;Just a quick heads up for everybody who it may concern. Which is basically just me and nobody else.&#xA;I changed the hosting for this blog.&#xA;It is now not longer hosted in the woods, but it still is.&#xA;What I mean by that is that I moved the blog over to github pages. This is nice and convinient to make sure&#xA;the blog stays up even if my homelab is down.&#xA;But if for any reason (i dont know why but just in case) github pages are not reachable the domain falls back to&#xA;my local hosting. Therefore, I will connect to my blog from my local connection and everybody else will&#xA;come through github.&#xA;Why?&#xA;Because I wanted to try it. Thats it. No big reason. As always.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Working for Governal It Suppliers</title>
-      <link>https://tomastechlab.com/posts/working-for-governal-it-suppliers/</link>
+      <link>http://localhost:1313/posts/working-for-governal-it-suppliers/</link>
       <pubDate>Fri, 21 Mar 2025 10:09:30 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/working-for-governal-it-suppliers/</guid>
+      <guid>http://localhost:1313/posts/working-for-governal-it-suppliers/</guid>
       <description>&lt;p&gt;In my 10+ years of working in the IT industry, I have worked for a number of government IT suppliers.&#xA;Wether it be government departments directly or suppliers or agencies for governement IT services.&#xA;I had some insight in how these parts of the government operate and why they do things the way they do.&lt;/p&gt;&#xA;&lt;p&gt;I want to introduce this by saying that I have worked with these departments and agencies but still only had&#xA;insight in scoped projects. Which is a good thing on the one hand but means that everything I&amp;rsquo;m about to write here&#xA;needs to be taken with a grain of salt as all of this might not apply to other parts of government projects, agencies, suppliers etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Struggling to keep it up?</title>
-      <link>https://tomastechlab.com/posts/struggling-to-keep-it-up/</link>
+      <link>http://localhost:1313/posts/struggling-to-keep-it-up/</link>
       <pubDate>Sun, 02 Mar 2025 13:22:36 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/struggling-to-keep-it-up/</guid>
+      <guid>http://localhost:1313/posts/struggling-to-keep-it-up/</guid>
       <description>&lt;p&gt;As you may have noticed, I&amp;rsquo;ve been struggling to keep my blog up from time to time.&#xA;I want to explain why that is and what I do to prevent it.&#xA;First of all, I am hosting this at my home. Which means whenever my home network goes down, my blog is down too.&#xA;Usually this is not a problem at all because I dont tinker with the network that much.&#xA;But recently I switched a few devices around and swapped basically my whole network gear.&#xA;As you might know I live in a quite old house and I want to make it as smart as I am able to.&#xA;Therefore I realized that I need to seperate my network quite a bit more than it already was.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Updates to the Homelab</title>
-      <link>https://tomastechlab.com/posts/updates-to-the-homelab/</link>
+      <link>http://localhost:1313/posts/updates-to-the-homelab/</link>
       <pubDate>Fri, 17 Jan 2025 10:16:00 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/updates-to-the-homelab/</guid>
+      <guid>http://localhost:1313/posts/updates-to-the-homelab/</guid>
       <description>&lt;p&gt;I just recently decided to upgrade my homelab once again. Especially my trusy little &amp;ldquo;Service&amp;rdquo;-Machine. You remember? The one I wrote about in my &lt;a href=&#34;../hosted-in-the-woods&#34;&gt;Hosted in the woods&lt;/a&gt; entry.&#xA;It will be basically the same system but I want to upgrade the hardware.&#xA;Currently it is running on a small i3-6100T machine with about 16gigs of RAM and a SSHD Harddrive.&#xA;Why is it so low spec&amp;rsquo;d you might ask. Good question!&#xA;First of all: for what I am doing with this machine I dont really need much computing power or massive amounts of RAM.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D Printing with 10mm accuracy</title>
-      <link>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</link>
+      <link>http://localhost:1313/posts/3d-printing-with-10mm-accuracy/</link>
       <pubDate>Mon, 23 Dec 2024 07:38:37 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</guid>
+      <guid>http://localhost:1313/posts/3d-printing-with-10mm-accuracy/</guid>
       <description>&lt;p&gt;I know, the title is strange. 3D Printing with 10mm accuracy doesn&amp;rsquo;t really sound that nice does it?&#xA;And in reality, its really not. But this is what is currently happening on my Ender 3v2.&#xA;I just recently converted it to a direct-drive and upgraded the firmware to the latest version.&#xA;So far so good. The upgrades went smooth and my first testprint was due.&#xA;But then it happened. I got the infamous M112 Error.&#xA;For anybody unintiated, M112 is basically the equivalent of a fatal error.&#xA;It stops everything immediately to prevent any damage from happening.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What does cleaning up Code mean?</title>
-      <link>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</link>
+      <link>http://localhost:1313/posts/what-does-cleaning-up-code-mean/</link>
       <pubDate>Wed, 04 Dec 2024 10:23:44 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</guid>
+      <guid>http://localhost:1313/posts/what-does-cleaning-up-code-mean/</guid>
       <description>&lt;p&gt;If you work with developers you might have heard the phrase&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I just need to clean up my code and then its good to go&#xA;or something similar. Probably in the context of a feature or software gets fnished and is ready to deploy.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;But what does that actually mean?&#xA;Is the developer actually cleaning its code? Like sweeping it with a digital broom? or polishing it with an old leather rag like a barkeeper in those classic western movies?&lt;/p&gt;</description>
     </item>
     <item>
       <title>His/My/Our complicated blog setup</title>
-      <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+      <link>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</link>
       <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+      <guid>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.&#xA;Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles&#xA;the way I do it.&lt;/p&gt;&#xA;&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hugo&lt;/li&gt;&#xA;&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;&#xA;&lt;li&gt;bash (scp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and thats basically it.&#xA;This is the general workflow I use:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why No Comments</title>
-      <link>https://tomastechlab.com/posts/why-no-comments/</link>
+      <link>http://localhost:1313/posts/why-no-comments/</link>
       <pubDate>Mon, 11 Nov 2024 20:39:03 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/why-no-comments/</guid>
+      <guid>http://localhost:1313/posts/why-no-comments/</guid>
       <description>&lt;p&gt;This blog ist just my little outlet for the time when I fell like writing something.&#xA;Its not really meant for others to read but its online anyway as there might be someone on this&#xA;lovely blue ball in the universe that might find some particular detail interesting enogh to read about it&#xA;on my blog.&#xA;Besides that I dont really expect a lot of traffic on here.&#xA;Heck, I dont even have userstats or analytics in any way for this site.&#xA;Sure I could aggregate the data from my server logs but thats more of a tedious task on a bored winter night or something.&#xA;Thats the exact same reason why I dont have comments enabled on here.&#xA;Its not that the blogging platform I use isn&amp;rsquo;t capable of it. Its just a flag I decided to turn off on purpose.&#xA;I dont expect people to have strong oppionions on the stuff I write or that they want to comment on my thoughts in any way.&#xA;And if there is someone who really wants to tell me how they feel about a certain topic, there is always my email address on the frontpage.&#xA;And there you have it. The reason I dont have comments enabled and why I probably will never turn them on.&#xA;Just putting this out there so I can reference it if somebody at some time should ask or wonder about it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosted in the Woods</title>
-      <link>https://tomastechlab.com/posts/hosted-in-the-woods/</link>
+      <link>http://localhost:1313/posts/hosted-in-the-woods/</link>
       <pubDate>Mon, 28 Oct 2024 19:55:29 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/hosted-in-the-woods/</guid>
+      <guid>http://localhost:1313/posts/hosted-in-the-woods/</guid>
       <description>&lt;p&gt;Guess what happened.. I got rid of my expensive server in the datacenter. The very server that is hosting this site.&#xA;But how? You might ask. Good question! I would like to explain everything in detail but&amp;hellip; lets be honest, I would mess up&#xA;and dox myself on the internet.&#xA;But I can give you the gist of it.&#xA;What basically happened is that I created my own homelab. Which means I&amp;rsquo;m essentially my own hosting provider now.&#xA;Which means in return I can run this site and essentially all my services (more on them later) on a very small box with very little power requirements which is, in the end, waaaayyy cheaper than renting a vps at one of the big hosting providers.&#xA;Sure, I miss out on a lot of nice features they offer, like redundant connections, firewalling, storage, cooling solutions&amp;hellip;&#xA;but do I really need all of this?&#xA;Let me tell you.. I have way more failsafe solutions than needed for this small site and all my other services (more on them later)&#xA;So whats the deal then? I have a small computer running in the woods, its needs next to nothing in terms of power, has a redundant 2kw/h battery backup (which is absolutely overkill for this), main power is coming from an array of solar panels so power is no concern.&#xA;What about connectivity. I have a dedicated internet conenction for this machine and on another connection to my home network. This means I can expose anything I want to the internet from this machine and dont have to worry of exposing my home or work machines through it in any way as all services are bound to an interface.&#xA;And lets be honest, the person that will have the most issues with this blog being down is myself. And even if the internet connection goes down I can still access my blog via a local connection. So I can create my entries even without internet.&#xA;If this makes sense in any shape or form is a topic for some other day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>UPDATES!!</title>
-      <link>https://tomastechlab.com/posts/updates/</link>
+      <link>http://localhost:1313/posts/updates/</link>
       <pubDate>Tue, 20 Aug 2024 18:48:59 +0200</pubDate>
-      <guid>https://tomastechlab.com/posts/updates/</guid>
+      <guid>http://localhost:1313/posts/updates/</guid>
       <description>&lt;p&gt;Could you image a world where everything you touch and try just works and all is well?&#xA;No?&#xA;Me neither..&#xA;Especially in terms of IT systems. There is always something to do. Wether it be creating or updating software,&#xA;deploying systems, hardware modifications to tackle new challenges or just user suppport for the latest edge cases.&#xA;I bet there is a lot more that would need coverage but I dont have the time to finish this list.&#xA;I guess what I want to say is:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do I Need My Own AI Assistant</title>
-      <link>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</link>
+      <link>http://localhost:1313/posts/do-i-need-my-own-ai-assistant/</link>
       <pubDate>Tue, 09 Apr 2024 06:06:06 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</guid>
+      <guid>http://localhost:1313/posts/do-i-need-my-own-ai-assistant/</guid>
       <description>&lt;p&gt;In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be.&#xA;Which, frankly, isnt that hard, considering its an old house from the 50s.&#xA;In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system.&#xA;Nothing too huge. Just a few cameras on the property and the entrance area.&#xA;During the planing I the idea came to me to use AI to assist me in home automation and surveillance.&#xA;But what does that mean exactly?&#xA;I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around)&#xA;The servers are currently located in my garage, far away enough to not get disturbed by the noise they make.&#xA;Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house.&#xA;But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process.&#xA;Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI.&#xA;And the best part of it? Its all cloudless. And oh boy, it works great.&#xA;Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A House From the 50s - but smart</title>
-      <link>https://tomastechlab.com/posts/a-house-from-the-50s-but-smart/</link>
+      <link>http://localhost:1313/posts/a-house-from-the-50s-but-smart/</link>
       <pubDate>Fri, 29 Mar 2024 13:02:14 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/a-house-from-the-50s-but-smart/</guid>
+      <guid>http://localhost:1313/posts/a-house-from-the-50s-but-smart/</guid>
       <description>&lt;p&gt;In the beginning of 2023 I bought a house and was pretty happy about it.&#xA;The house wasnt anything special but it has enough rooms to house me, my wife and my daughter.&#xA;The biggest issue however was that the man that lived here before us was a heavy smoker. And I mean a real heavy smoker.&#xA;So the walls and all the interior was basically soaked in nicotin.&#xA;So the only reasonable thing to do was to rip out basically anything and replace it with something new and fresh.&#xA;While I planned on how to achieve a home that I can live in for longer than just a few years a thought came to mind which was&#xA;basically: Why not make it smart if I have to renovate everything anyway?&#xA;And so it started.&#xA;But first I had so clarify some things:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Angry Development</title>
-      <link>https://tomastechlab.com/posts/angry-development/</link>
+      <link>http://localhost:1313/posts/angry-development/</link>
       <pubDate>Fri, 22 Mar 2024 20:14:15 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/angry-development/</guid>
+      <guid>http://localhost:1313/posts/angry-development/</guid>
       <description>&lt;p&gt;Let me start this entry with a few questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do you program?&lt;/li&gt;&#xA;&lt;li&gt;Do you program for long sessions?&lt;/li&gt;&#xA;&lt;li&gt;Do you know &amp;ldquo;The Flow&amp;rdquo;?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you can answer all of these with a &amp;ldquo;yes&amp;rdquo; then you probably know the rush that comes with &amp;ldquo;The Flow&amp;rdquo;.&#xA;Full-focused tunnel vision.&#xA;Just you and your code.&#xA;Its one symbiotic relationship.&#xA;Just a plain beautiful and peaceful state to be in.&lt;/p&gt;&#xA;&lt;p&gt;Well, most of the time at least. Did you know that you can reach this kind of focus by being angry?&#xA;The tunnel vision, the rush, the pump that shakes your whole body when fight-or-flight instincts kick in.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adventures in Go</title>
-      <link>https://tomastechlab.com/posts/adventures-in-go/</link>
+      <link>http://localhost:1313/posts/adventures-in-go/</link>
       <pubDate>Mon, 11 Mar 2024 14:15:08 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/adventures-in-go/</guid>
+      <guid>http://localhost:1313/posts/adventures-in-go/</guid>
       <description>&lt;p&gt;When I started programming I learned C, C++ and Java. These languages have been around for decades and are still not fully replaceable by modern languages.&#xA;I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second.&#xA;As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people.&#xA;There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible.&#xA;Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches&#xA;to languages.&#xA;But this entry is titled &amp;ldquo;Adventures in Go&amp;rdquo; and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain.&#xA;I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C++ and Java did to&#xA;make the &amp;ldquo;new&amp;rdquo; languages possible helped me a ton in understanding the languages I was using over the years.&#xA;Some things were easier than others, but all in all I got done what was needed at the time.&#xA;One language that always had a special place in my heart is Go.&#xA;I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant.&#xA;I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>https://tomastechlab.com/posts/hello-world/</link>
+      <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Tue, 05 Mar 2024 19:12:19 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello and welcome to my first entry! As I have no idea what to write in this first post I would like to thank you.&lt;/p&gt;&#xA;&lt;p&gt;Yes, thank you!&lt;/p&gt;&#xA;&lt;p&gt;The fact that you found this Blog, and read this, tells me that you might be interested in something I wrote about or just scraped&#xA;the Internet hard enough to find a link to this post.&#xA;Anyway, while you are here, why dont you check out my &lt;a href=&#34;https://tomastechlab.com/about/&#34; title=&#34;about&#34;&gt;about&lt;/a&gt; page?&#xA;Or any other post I might have published since I wrote these lines.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;Hello and welcome to my first entry! As I have no idea what to write in this first post I would like to thank you.&lt;/p&gt;&#xA;&lt;p&gt;Yes, thank you!&lt;/p&gt;&#xA;&lt;p&gt;The fact that you found this Blog, and read this, tells me that you might be interested in something I wrote about or just scraped&#xA;the Internet hard enough to find a link to this post.&#xA;Anyway, while you are here, why dont you check out my &lt;a href=&#34;http://localhost:1313/about/&#34; title=&#34;about&#34;&gt;about&lt;/a&gt; page?&#xA;Or any other post I might have published since I wrote these lines.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

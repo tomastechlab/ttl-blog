@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homelab on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/homelab/</link>
+    <link>http://localhost:1313/tags/homelab/</link>
     <description>Recent content in Homelab on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 10:16:00 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Sep 2025 11:11:07 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Party-Pub to Office-Space</title>
+      <link>http://localhost:1313/posts/from-party-pub-to-office-space/</link>
+      <pubDate>Tue, 16 Sep 2025 11:11:07 +0200</pubDate>
+      <guid>http://localhost:1313/posts/from-party-pub-to-office-space/</guid>
+      <description>&lt;p&gt;Imagine the following: You have a small house on your property. Not a full house you can live in, more like a bigger garden shed or a small pool house (without the pool&amp;hellip;.yet).&lt;/p&gt;&#xA;&lt;p&gt;Got it? Alright. This is what I am working with. Or better: This is where I am working in.&lt;/p&gt;&#xA;&lt;p&gt;So far this small space was used as a party room / private pub. Including everything, you can image.&#xA;Fridge, Bar, Stools, Table&amp;hellip; and everything in a cozy pub like lighting.&#xA;Seemed nice and I really liked it, but it is time for something new.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Updates to the Homelab</title>
-      <link>https://tomastechlab.com/posts/updates-to-the-homelab/</link>
+      <link>http://localhost:1313/posts/updates-to-the-homelab/</link>
       <pubDate>Fri, 17 Jan 2025 10:16:00 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/updates-to-the-homelab/</guid>
+      <guid>http://localhost:1313/posts/updates-to-the-homelab/</guid>
       <description>&lt;p&gt;I just recently decided to upgrade my homelab once again. Especially my trusy little &amp;ldquo;Service&amp;rdquo;-Machine. You remember? The one I wrote about in my &lt;a href=&#34;../hosted-in-the-woods&#34;&gt;Hosted in the woods&lt;/a&gt; entry.&#xA;It will be basically the same system but I want to upgrade the hardware.&#xA;Currently it is running on a small i3-6100T machine with about 16gigs of RAM and a SSHD Harddrive.&#xA;Why is it so low spec&amp;rsquo;d you might ask. Good question!&#xA;First of all: for what I am doing with this machine I dont really need much computing power or massive amounts of RAM.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D Printing with 10mm accuracy</title>
-      <link>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</link>
+      <link>http://localhost:1313/posts/3d-printing-with-10mm-accuracy/</link>
       <pubDate>Mon, 23 Dec 2024 07:38:37 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</guid>
+      <guid>http://localhost:1313/posts/3d-printing-with-10mm-accuracy/</guid>
       <description>&lt;p&gt;I know, the title is strange. 3D Printing with 10mm accuracy doesn&amp;rsquo;t really sound that nice does it?&#xA;And in reality, its really not. But this is what is currently happening on my Ender 3v2.&#xA;I just recently converted it to a direct-drive and upgraded the firmware to the latest version.&#xA;So far so good. The upgrades went smooth and my first testprint was due.&#xA;But then it happened. I got the infamous M112 Error.&#xA;For anybody unintiated, M112 is basically the equivalent of a fatal error.&#xA;It stops everything immediately to prevent any damage from happening.&lt;/p&gt;</description>
     </item>
     <item>
       <title>His/My/Our complicated blog setup</title>
-      <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+      <link>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</link>
       <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+      <guid>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.&#xA;Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles&#xA;the way I do it.&lt;/p&gt;&#xA;&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hugo&lt;/li&gt;&#xA;&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;&#xA;&lt;li&gt;bash (scp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and thats basically it.&#xA;This is the general workflow I use:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosted in the Woods</title>
-      <link>https://tomastechlab.com/posts/hosted-in-the-woods/</link>
+      <link>http://localhost:1313/posts/hosted-in-the-woods/</link>
       <pubDate>Mon, 28 Oct 2024 19:55:29 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/hosted-in-the-woods/</guid>
+      <guid>http://localhost:1313/posts/hosted-in-the-woods/</guid>
       <description>&lt;p&gt;Guess what happened.. I got rid of my expensive server in the datacenter. The very server that is hosting this site.&#xA;But how? You might ask. Good question! I would like to explain everything in detail but&amp;hellip; lets be honest, I would mess up&#xA;and dox myself on the internet.&#xA;But I can give you the gist of it.&#xA;What basically happened is that I created my own homelab. Which means I&amp;rsquo;m essentially my own hosting provider now.&#xA;Which means in return I can run this site and essentially all my services (more on them later) on a very small box with very little power requirements which is, in the end, waaaayyy cheaper than renting a vps at one of the big hosting providers.&#xA;Sure, I miss out on a lot of nice features they offer, like redundant connections, firewalling, storage, cooling solutions&amp;hellip;&#xA;but do I really need all of this?&#xA;Let me tell you.. I have way more failsafe solutions than needed for this small site and all my other services (more on them later)&#xA;So whats the deal then? I have a small computer running in the woods, its needs next to nothing in terms of power, has a redundant 2kw/h battery backup (which is absolutely overkill for this), main power is coming from an array of solar panels so power is no concern.&#xA;What about connectivity. I have a dedicated internet conenction for this machine and on another connection to my home network. This means I can expose anything I want to the internet from this machine and dont have to worry of exposing my home or work machines through it in any way as all services are bound to an interface.&#xA;And lets be honest, the person that will have the most issues with this blog being down is myself. And even if the internet connection goes down I can still access my blog via a local connection. So I can create my entries even without internet.&#xA;If this makes sense in any shape or form is a topic for some other day.&lt;/p&gt;</description>
     </item>
   </channel>

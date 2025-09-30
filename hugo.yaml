@@ -60,7 +60,7 @@ params:
     - blog
     - homepage
   contact:
-    email: info@tomastechlab.com
+    email: kontakt@tomastechlab.com
 
   homeSubtitle: This is where I blog about things
   enableThemeToggle: true

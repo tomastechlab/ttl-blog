@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hosting on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/hosting/</link>
+    <link>http://localhost:1313/tags/hosting/</link>
     <description>Recent content in Hosting on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Mar 2025 13:22:36 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 May 2025 12:01:21 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We Are on Github Now</title>
+      <link>http://localhost:1313/posts/we-are-on-github-now/</link>
+      <pubDate>Tue, 27 May 2025 12:01:21 +0200</pubDate>
+      <guid>http://localhost:1313/posts/we-are-on-github-now/</guid>
+      <description>&lt;p&gt;Just a quick heads up for everybody who it may concern. Which is basically just me and nobody else.&#xA;I changed the hosting for this blog.&#xA;It is now not longer hosted in the woods, but it still is.&#xA;What I mean by that is that I moved the blog over to github pages. This is nice and convinient to make sure&#xA;the blog stays up even if my homelab is down.&#xA;But if for any reason (i dont know why but just in case) github pages are not reachable the domain falls back to&#xA;my local hosting. Therefore, I will connect to my blog from my local connection and everybody else will&#xA;come through github.&#xA;Why?&#xA;Because I wanted to try it. Thats it. No big reason. As always.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Struggling to keep it up?</title>
-      <link>https://tomastechlab.com/posts/struggling-to-keep-it-up/</link>
+      <link>http://localhost:1313/posts/struggling-to-keep-it-up/</link>
       <pubDate>Sun, 02 Mar 2025 13:22:36 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/struggling-to-keep-it-up/</guid>
+      <guid>http://localhost:1313/posts/struggling-to-keep-it-up/</guid>
       <description>&lt;p&gt;As you may have noticed, I&amp;rsquo;ve been struggling to keep my blog up from time to time.&#xA;I want to explain why that is and what I do to prevent it.&#xA;First of all, I am hosting this at my home. Which means whenever my home network goes down, my blog is down too.&#xA;Usually this is not a problem at all because I dont tinker with the network that much.&#xA;But recently I switched a few devices around and swapped basically my whole network gear.&#xA;As you might know I live in a quite old house and I want to make it as smart as I am able to.&#xA;Therefore I realized that I need to seperate my network quite a bit more than it already was.&lt;/p&gt;</description>
     </item>
     <item>
       <title>His/My/Our complicated blog setup</title>
-      <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+      <link>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</link>
       <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+      <guid>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.&#xA;Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles&#xA;the way I do it.&lt;/p&gt;&#xA;&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hugo&lt;/li&gt;&#xA;&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;&#xA;&lt;li&gt;bash (scp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and thats basically it.&#xA;This is the general workflow I use:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosted in the Woods</title>
-      <link>https://tomastechlab.com/posts/hosted-in-the-woods/</link>
+      <link>http://localhost:1313/posts/hosted-in-the-woods/</link>
       <pubDate>Mon, 28 Oct 2024 19:55:29 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/hosted-in-the-woods/</guid>
+      <guid>http://localhost:1313/posts/hosted-in-the-woods/</guid>
       <description>&lt;p&gt;Guess what happened.. I got rid of my expensive server in the datacenter. The very server that is hosting this site.&#xA;But how? You might ask. Good question! I would like to explain everything in detail but&amp;hellip; lets be honest, I would mess up&#xA;and dox myself on the internet.&#xA;But I can give you the gist of it.&#xA;What basically happened is that I created my own homelab. Which means I&amp;rsquo;m essentially my own hosting provider now.&#xA;Which means in return I can run this site and essentially all my services (more on them later) on a very small box with very little power requirements which is, in the end, waaaayyy cheaper than renting a vps at one of the big hosting providers.&#xA;Sure, I miss out on a lot of nice features they offer, like redundant connections, firewalling, storage, cooling solutions&amp;hellip;&#xA;but do I really need all of this?&#xA;Let me tell you.. I have way more failsafe solutions than needed for this small site and all my other services (more on them later)&#xA;So whats the deal then? I have a small computer running in the woods, its needs next to nothing in terms of power, has a redundant 2kw/h battery backup (which is absolutely overkill for this), main power is coming from an array of solar panels so power is no concern.&#xA;What about connectivity. I have a dedicated internet conenction for this machine and on another connection to my home network. This means I can expose anything I want to the internet from this machine and dont have to worry of exposing my home or work machines through it in any way as all services are bound to an interface.&#xA;And lets be honest, the person that will have the most issues with this blog being down is myself. And even if the internet connection goes down I can still access my blog via a local connection. So I can create my entries even without internet.&#xA;If this makes sense in any shape or form is a topic for some other day.&lt;/p&gt;</description>
     </item>
   </channel>

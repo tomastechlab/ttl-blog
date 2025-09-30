@@ -2,38 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/projects/</link>
+    <link>http://localhost:1313/tags/projects/</link>
     <description>Recent content in Projects on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Mar 2025 10:09:30 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jul 2025 15:59:34 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Hope (kinda)</title>
+      <link>http://localhost:1313/posts/a-new-hope-kinda/</link>
+      <pubDate>Wed, 16 Jul 2025 15:59:34 +0200</pubDate>
+      <guid>http://localhost:1313/posts/a-new-hope-kinda/</guid>
+      <description>&lt;p&gt;I am on the brink of a new work related project. And at first glance there is no real issue with it.&#xA;I com to this conclusion because of a few factors:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;i am currently looking for work&lt;/li&gt;&#xA;&lt;li&gt;the projects tech-stack perfectly fits my tech stack&lt;/li&gt;&#xA;&lt;li&gt;i was able to talk to the people involved in the project&lt;/li&gt;&#xA;&lt;li&gt;the payment is okay-ish&lt;/li&gt;&#xA;&lt;li&gt;there is a perspective of future projects with that client&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This combination of facts makes it impossible for me to ignore it.&#xA;But there is something that makes my spidersense tingling. Nothing too big but it makes me be cautios of possible endeveaures.&#xA;I think its my 4. point, but maybe not for the reasons you might initially think.&#xA;The payment for my work is fixed. There is no more negotiation about that, so everything is alright&amp;hellip; right?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leaving a Government Project</title>
+      <link>http://localhost:1313/posts/leaving-a-government-project/</link>
+      <pubDate>Wed, 02 Jul 2025 19:00:54 +0200</pubDate>
+      <guid>http://localhost:1313/posts/leaving-a-government-project/</guid>
+      <description>&lt;p&gt;Guess what happened.&#xA;I got &amp;ldquo;fired&amp;rdquo; from my government project. Well, its not really fired. I was on probation for 6 months and at the end of this 6 months they decided that I wasnt good enough (I guess??).&lt;/p&gt;&#xA;&lt;p&gt;The thing is, I dont really know why the let me go.&#xA;I asked for reasons twice and didnt get an answer.&#xA;Its okay, from my side, as I didnt really liked the work and the environment anyway, but I would really like to know what&#xA;the real reason was that lead them to the decision that I have to leave.&#xA;Someone said it was due to my code quality or lack of standards, but in my (most likely biased) opinion.&#xA;There was no such thing as lacking code quality or lack of standards in my work.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Working for Governal It Suppliers</title>
-      <link>https://tomastechlab.com/posts/working-for-governal-it-suppliers/</link>
+      <link>http://localhost:1313/posts/working-for-governal-it-suppliers/</link>
       <pubDate>Fri, 21 Mar 2025 10:09:30 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/working-for-governal-it-suppliers/</guid>
+      <guid>http://localhost:1313/posts/working-for-governal-it-suppliers/</guid>
       <description>&lt;p&gt;In my 10+ years of working in the IT industry, I have worked for a number of government IT suppliers.&#xA;Wether it be government departments directly or suppliers or agencies for governement IT services.&#xA;I had some insight in how these parts of the government operate and why they do things the way they do.&lt;/p&gt;&#xA;&lt;p&gt;I want to introduce this by saying that I have worked with these departments and agencies but still only had&#xA;insight in scoped projects. Which is a good thing on the one hand but means that everything I&amp;rsquo;m about to write here&#xA;needs to be taken with a grain of salt as all of this might not apply to other parts of government projects, agencies, suppliers etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D Printing with 10mm accuracy</title>
-      <link>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</link>
+      <link>http://localhost:1313/posts/3d-printing-with-10mm-accuracy/</link>
       <pubDate>Mon, 23 Dec 2024 07:38:37 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</guid>
+      <guid>http://localhost:1313/posts/3d-printing-with-10mm-accuracy/</guid>
       <description>&lt;p&gt;I know, the title is strange. 3D Printing with 10mm accuracy doesn&amp;rsquo;t really sound that nice does it?&#xA;And in reality, its really not. But this is what is currently happening on my Ender 3v2.&#xA;I just recently converted it to a direct-drive and upgraded the firmware to the latest version.&#xA;So far so good. The upgrades went smooth and my first testprint was due.&#xA;But then it happened. I got the infamous M112 Error.&#xA;For anybody unintiated, M112 is basically the equivalent of a fatal error.&#xA;It stops everything immediately to prevent any damage from happening.&lt;/p&gt;</description>
     </item>
     <item>
       <title>His/My/Our complicated blog setup</title>
-      <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+      <link>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</link>
       <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+      <guid>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.&#xA;Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles&#xA;the way I do it.&lt;/p&gt;&#xA;&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hugo&lt;/li&gt;&#xA;&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;&#xA;&lt;li&gt;bash (scp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and thats basically it.&#xA;This is the general workflow I use:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosted in the Woods</title>
-      <link>https://tomastechlab.com/posts/hosted-in-the-woods/</link>
+      <link>http://localhost:1313/posts/hosted-in-the-woods/</link>
       <pubDate>Mon, 28 Oct 2024 19:55:29 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/hosted-in-the-woods/</guid>
+      <guid>http://localhost:1313/posts/hosted-in-the-woods/</guid>
       <description>&lt;p&gt;Guess what happened.. I got rid of my expensive server in the datacenter. The very server that is hosting this site.&#xA;But how? You might ask. Good question! I would like to explain everything in detail but&amp;hellip; lets be honest, I would mess up&#xA;and dox myself on the internet.&#xA;But I can give you the gist of it.&#xA;What basically happened is that I created my own homelab. Which means I&amp;rsquo;m essentially my own hosting provider now.&#xA;Which means in return I can run this site and essentially all my services (more on them later) on a very small box with very little power requirements which is, in the end, waaaayyy cheaper than renting a vps at one of the big hosting providers.&#xA;Sure, I miss out on a lot of nice features they offer, like redundant connections, firewalling, storage, cooling solutions&amp;hellip;&#xA;but do I really need all of this?&#xA;Let me tell you.. I have way more failsafe solutions than needed for this small site and all my other services (more on them later)&#xA;So whats the deal then? I have a small computer running in the woods, its needs next to nothing in terms of power, has a redundant 2kw/h battery backup (which is absolutely overkill for this), main power is coming from an array of solar panels so power is no concern.&#xA;What about connectivity. I have a dedicated internet conenction for this machine and on another connection to my home network. This means I can expose anything I want to the internet from this machine and dont have to worry of exposing my home or work machines through it in any way as all services are bound to an interface.&#xA;And lets be honest, the person that will have the most issues with this blog being down is myself. And even if the internet connection goes down I can still access my blog via a local connection. So I can create my entries even without internet.&#xA;If this makes sense in any shape or form is a topic for some other day.&lt;/p&gt;</description>
     </item>
   </channel>

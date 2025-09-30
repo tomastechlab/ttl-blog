@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freelance on Tomas Tech Lab</title>
+    <link>http://localhost:1313/tags/freelance/</link>
+    <description>Recent content in Freelance on Tomas Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Sep 2025 17:09:48 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/freelance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The first Steps</title>
+      <link>http://localhost:1313/posts/the-first-steps/</link>
+      <pubDate>Mon, 29 Sep 2025 17:09:48 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-first-steps/</guid>
+      <description>&lt;p&gt;I already wrote about my decision to start something fresh. Something new. Something fun.&lt;/p&gt;&#xA;&lt;p&gt;And today I did the first step for that. It does not seem much but from now on its real.&#xA;As I have to get everything in order with the German government because&amp;hellip; taxes I guess.&#xA;I started today by filing for a new tax ID and verified myself for a new bank account.&#xA;This is a very weird endeavor that someone that wants to start working in Germany needs to do.&#xA;The Country itself isn&amp;rsquo;t so bad I think.&#xA;But the bureaucratic hoops one has to go through just because he/she wants to work in this country is sometimes very ridiculous.&#xA;I just learned the other day that you are not allowed to create a company and work for 0 bucks just because you love what you do.&#xA;Okay 0 bucks would be very strange but even if you don&amp;rsquo;t earn as much as someone else (the finance department) decides you should, your company can get shut down.&#xA;I really don&amp;rsquo;t know why it is like this but its real and its somewhat nuts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

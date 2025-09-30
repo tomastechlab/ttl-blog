@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/project/</link>
+    <link>http://localhost:1313/tags/project/</link>
     <description>Recent content in Project on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2024 06:06:06 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Sep 2025 17:09:48 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The first Steps</title>
+      <link>http://localhost:1313/posts/the-first-steps/</link>
+      <pubDate>Mon, 29 Sep 2025 17:09:48 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-first-steps/</guid>
+      <description>&lt;p&gt;I already wrote about my decision to start something fresh. Something new. Something fun.&lt;/p&gt;&#xA;&lt;p&gt;And today I did the first step for that. It does not seem much but from now on its real.&#xA;As I have to get everything in order with the German government because&amp;hellip; taxes I guess.&#xA;I started today by filing for a new tax ID and verified myself for a new bank account.&#xA;This is a very weird endeavor that someone that wants to start working in Germany needs to do.&#xA;The Country itself isn&amp;rsquo;t so bad I think.&#xA;But the bureaucratic hoops one has to go through just because he/she wants to work in this country is sometimes very ridiculous.&#xA;I just learned the other day that you are not allowed to create a company and work for 0 bucks just because you love what you do.&#xA;Okay 0 bucks would be very strange but even if you don&amp;rsquo;t earn as much as someone else (the finance department) decides you should, your company can get shut down.&#xA;I really don&amp;rsquo;t know why it is like this but its real and its somewhat nuts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Party-Pub to Office-Space</title>
+      <link>http://localhost:1313/posts/from-party-pub-to-office-space/</link>
+      <pubDate>Tue, 16 Sep 2025 11:11:07 +0200</pubDate>
+      <guid>http://localhost:1313/posts/from-party-pub-to-office-space/</guid>
+      <description>&lt;p&gt;Imagine the following: You have a small house on your property. Not a full house you can live in, more like a bigger garden shed or a small pool house (without the pool&amp;hellip;.yet).&lt;/p&gt;&#xA;&lt;p&gt;Got it? Alright. This is what I am working with. Or better: This is where I am working in.&lt;/p&gt;&#xA;&lt;p&gt;So far this small space was used as a party room / private pub. Including everything, you can image.&#xA;Fridge, Bar, Stools, Table&amp;hellip; and everything in a cozy pub like lighting.&#xA;Seemed nice and I really liked it, but it is time for something new.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Do I Need My Own AI Assistant</title>
-      <link>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</link>
+      <link>http://localhost:1313/posts/do-i-need-my-own-ai-assistant/</link>
       <pubDate>Tue, 09 Apr 2024 06:06:06 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</guid>
+      <guid>http://localhost:1313/posts/do-i-need-my-own-ai-assistant/</guid>
       <description>&lt;p&gt;In the last post I wrote about my house and that I take the opportunity to make it (a lot) smarter than it used to be.&#xA;Which, frankly, isnt that hard, considering its an old house from the 50s.&#xA;In progress of rebuilding some structural parts like walls and flooring I decided to also build a surveillance system.&#xA;Nothing too huge. Just a few cameras on the property and the entrance area.&#xA;During the planing I the idea came to me to use AI to assist me in home automation and surveillance.&#xA;But what does that mean exactly?&#xA;I thought about the ways to implement cool tech into my house and started with adding a few servers that I had anyway laying around. (yes i am one of these guys who just has servers laying around)&#xA;The servers are currently located in my garage, far away enough to not get disturbed by the noise they make.&#xA;Therefore I can let them run 24/7 and do all sorts of stuff with them. E.g. train my own AI/Computer Vision model to recognize people and objects in and around the house.&#xA;But dont get me wrong. I am still just an amateur in regards of any AI stuff. I get the gist of it, how it works and what I have to do to integrate it into other systems. But I am nowhere near a data scientist who can explain the whole process.&#xA;Luckily this isnt needed as I am still able to create some python scripts and tests to use my private image collection as training data for my own recognition AI.&#xA;And the best part of it? Its all cloudless. And oh boy, it works great.&#xA;Sure, I have to train it with a lot of different data, but there is nobody but me who use it anyways so nobody is waiting for it to finish, except me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adventures in Go</title>
-      <link>https://tomastechlab.com/posts/adventures-in-go/</link>
+      <link>http://localhost:1313/posts/adventures-in-go/</link>
       <pubDate>Mon, 11 Mar 2024 14:15:08 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/adventures-in-go/</guid>
+      <guid>http://localhost:1313/posts/adventures-in-go/</guid>
       <description>&lt;p&gt;When I started programming I learned C, C++ and Java. These languages have been around for decades and are still not fully replaceable by modern languages.&#xA;I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second.&#xA;As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people.&#xA;There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible.&#xA;Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches&#xA;to languages.&#xA;But this entry is titled &amp;ldquo;Adventures in Go&amp;rdquo; and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain.&#xA;I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C++ and Java did to&#xA;make the &amp;ldquo;new&amp;rdquo; languages possible helped me a ton in understanding the languages I was using over the years.&#xA;Some things were easier than others, but all in all I got done what was needed at the time.&#xA;One language that always had a special place in my heart is Go.&#xA;I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant.&#xA;I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.&lt;/p&gt;</description>
     </item>
   </channel>

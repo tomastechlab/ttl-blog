@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Private on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/private/</link>
+    <link>http://localhost:1313/tags/private/</link>
     <description>Recent content in Private on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2024 20:39:03 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/private/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 17:01:33 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/private/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time for something new (again)</title>
+      <link>http://localhost:1313/posts/time-for-something-new-again/</link>
+      <pubDate>Mon, 01 Sep 2025 17:01:33 +0200</pubDate>
+      <guid>http://localhost:1313/posts/time-for-something-new-again/</guid>
+      <description>&lt;p&gt;I guess its time for me to move on, because everything is fucked.&#xA;In terms of work and employment at least. But its not that easy for me.&#xA;Let me explain and start from the beginning:&lt;/p&gt;&#xA;&lt;p&gt;Its 2018: I just lost my last job in a huge agency and was in between jobs when I decided that its time for me to do freelancing.&#xA;Being my own boss was something that always wanted. And now there was my oppoprtunity.&#xA;So I started as a freelancer. Asked the government for a tax id and started to work.&#xA;I was on my own, there was no plan b and as a motivation my wife just gave birth to our daughter.&#xA;But I had a blast. I worked with way more motivation that before and, what surprised me the most, I had fun.&#xA;Actual, real fun. I created stuff. I was creative in ways I never imagined. Heck, I even had a proper instagram account that I regularly used and published stuff on. And people who know me personally would never expect some kind of social media work from me.&#xA;It was a great time and I really enjoyed it.&#xA;Then, about a year later, I wanted to push it to the next level.&#xA;So I grabbed my best friend of that time and asked him if he wants to found an agency for webdevelopment with me.&#xA;He was hesitant at first but as me and him both could bring in customers from our previous work there should be no issue to get started and be profitable from day 0.&#xA;And so we began. We used the name that I already was working under (Codezilla IT-Consulting) and then we kept working, we grew as a company over the years and now, after around 6 years, we are about 10 people. It wasnt always easy but we managed to push through.&#xA;And all that without any venture capital or other sources of income.&#xA;It feels great.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leaving a Government Project</title>
+      <link>http://localhost:1313/posts/leaving-a-government-project/</link>
+      <pubDate>Wed, 02 Jul 2025 19:00:54 +0200</pubDate>
+      <guid>http://localhost:1313/posts/leaving-a-government-project/</guid>
+      <description>&lt;p&gt;Guess what happened.&#xA;I got &amp;ldquo;fired&amp;rdquo; from my government project. Well, its not really fired. I was on probation for 6 months and at the end of this 6 months they decided that I wasnt good enough (I guess??).&lt;/p&gt;&#xA;&lt;p&gt;The thing is, I dont really know why the let me go.&#xA;I asked for reasons twice and didnt get an answer.&#xA;Its okay, from my side, as I didnt really liked the work and the environment anyway, but I would really like to know what&#xA;the real reason was that lead them to the decision that I have to leave.&#xA;Someone said it was due to my code quality or lack of standards, but in my (most likely biased) opinion.&#xA;There was no such thing as lacking code quality or lack of standards in my work.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why No Comments</title>
-      <link>https://tomastechlab.com/posts/why-no-comments/</link>
+      <link>http://localhost:1313/posts/why-no-comments/</link>
       <pubDate>Mon, 11 Nov 2024 20:39:03 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/why-no-comments/</guid>
+      <guid>http://localhost:1313/posts/why-no-comments/</guid>
       <description>&lt;p&gt;This blog ist just my little outlet for the time when I fell like writing something.&#xA;Its not really meant for others to read but its online anyway as there might be someone on this&#xA;lovely blue ball in the universe that might find some particular detail interesting enogh to read about it&#xA;on my blog.&#xA;Besides that I dont really expect a lot of traffic on here.&#xA;Heck, I dont even have userstats or analytics in any way for this site.&#xA;Sure I could aggregate the data from my server logs but thats more of a tedious task on a bored winter night or something.&#xA;Thats the exact same reason why I dont have comments enabled on here.&#xA;Its not that the blogging platform I use isn&amp;rsquo;t capable of it. Its just a flag I decided to turn off on purpose.&#xA;I dont expect people to have strong oppionions on the stuff I write or that they want to comment on my thoughts in any way.&#xA;And if there is someone who really wants to tell me how they feel about a certain topic, there is always my email address on the frontpage.&#xA;And there you have it. The reason I dont have comments enabled and why I probably will never turn them on.&#xA;Just putting this out there so I can reference it if somebody at some time should ask or wonder about it.&lt;/p&gt;</description>
     </item>
   </channel>

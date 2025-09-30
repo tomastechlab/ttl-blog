@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agencies on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/agencies/</link>
+    <link>http://localhost:1313/tags/agencies/</link>
     <description>Recent content in Agencies on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Mar 2025 10:09:30 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/agencies/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jul 2025 15:59:34 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agencies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Hope (kinda)</title>
+      <link>http://localhost:1313/posts/a-new-hope-kinda/</link>
+      <pubDate>Wed, 16 Jul 2025 15:59:34 +0200</pubDate>
+      <guid>http://localhost:1313/posts/a-new-hope-kinda/</guid>
+      <description>&lt;p&gt;I am on the brink of a new work related project. And at first glance there is no real issue with it.&#xA;I com to this conclusion because of a few factors:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;i am currently looking for work&lt;/li&gt;&#xA;&lt;li&gt;the projects tech-stack perfectly fits my tech stack&lt;/li&gt;&#xA;&lt;li&gt;i was able to talk to the people involved in the project&lt;/li&gt;&#xA;&lt;li&gt;the payment is okay-ish&lt;/li&gt;&#xA;&lt;li&gt;there is a perspective of future projects with that client&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This combination of facts makes it impossible for me to ignore it.&#xA;But there is something that makes my spidersense tingling. Nothing too big but it makes me be cautios of possible endeveaures.&#xA;I think its my 4. point, but maybe not for the reasons you might initially think.&#xA;The payment for my work is fixed. There is no more negotiation about that, so everything is alright&amp;hellip; right?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leaving a Government Project</title>
+      <link>http://localhost:1313/posts/leaving-a-government-project/</link>
+      <pubDate>Wed, 02 Jul 2025 19:00:54 +0200</pubDate>
+      <guid>http://localhost:1313/posts/leaving-a-government-project/</guid>
+      <description>&lt;p&gt;Guess what happened.&#xA;I got &amp;ldquo;fired&amp;rdquo; from my government project. Well, its not really fired. I was on probation for 6 months and at the end of this 6 months they decided that I wasnt good enough (I guess??).&lt;/p&gt;&#xA;&lt;p&gt;The thing is, I dont really know why the let me go.&#xA;I asked for reasons twice and didnt get an answer.&#xA;Its okay, from my side, as I didnt really liked the work and the environment anyway, but I would really like to know what&#xA;the real reason was that lead them to the decision that I have to leave.&#xA;Someone said it was due to my code quality or lack of standards, but in my (most likely biased) opinion.&#xA;There was no such thing as lacking code quality or lack of standards in my work.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Working for Governal It Suppliers</title>
-      <link>https://tomastechlab.com/posts/working-for-governal-it-suppliers/</link>
+      <link>http://localhost:1313/posts/working-for-governal-it-suppliers/</link>
       <pubDate>Fri, 21 Mar 2025 10:09:30 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/working-for-governal-it-suppliers/</guid>
+      <guid>http://localhost:1313/posts/working-for-governal-it-suppliers/</guid>
       <description>&lt;p&gt;In my 10+ years of working in the IT industry, I have worked for a number of government IT suppliers.&#xA;Wether it be government departments directly or suppliers or agencies for governement IT services.&#xA;I had some insight in how these parts of the government operate and why they do things the way they do.&lt;/p&gt;&#xA;&lt;p&gt;I want to introduce this by saying that I have worked with these departments and agencies but still only had&#xA;insight in scoped projects. Which is a good thing on the one hand but means that everything I&amp;rsquo;m about to write here&#xA;needs to be taken with a grain of salt as all of this might not apply to other parts of government projects, agencies, suppliers etc.&lt;/p&gt;</description>
     </item>
   </channel>

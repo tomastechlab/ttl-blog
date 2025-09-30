@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/blog/</link>
+    <link>http://localhost:1313/tags/blog/</link>
     <description>Recent content in Blog on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Nov 2024 10:07:25 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 May 2025 12:01:21 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We Are on Github Now</title>
+      <link>http://localhost:1313/posts/we-are-on-github-now/</link>
+      <pubDate>Tue, 27 May 2025 12:01:21 +0200</pubDate>
+      <guid>http://localhost:1313/posts/we-are-on-github-now/</guid>
+      <description>&lt;p&gt;Just a quick heads up for everybody who it may concern. Which is basically just me and nobody else.&#xA;I changed the hosting for this blog.&#xA;It is now not longer hosted in the woods, but it still is.&#xA;What I mean by that is that I moved the blog over to github pages. This is nice and convinient to make sure&#xA;the blog stays up even if my homelab is down.&#xA;But if for any reason (i dont know why but just in case) github pages are not reachable the domain falls back to&#xA;my local hosting. Therefore, I will connect to my blog from my local connection and everybody else will&#xA;come through github.&#xA;Why?&#xA;Because I wanted to try it. Thats it. No big reason. As always.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>His/My/Our complicated blog setup</title>
-      <link>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</link>
+      <link>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</link>
       <pubDate>Thu, 28 Nov 2024 10:07:25 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</guid>
+      <guid>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve read some of my earlier posts about how I host this blog you might be wondering how the software stack looks like.&#xA;Or you dont. I dont know. But I will tell you anyway and reference a youtube video I came across which somewhat resembles&#xA;the way I do it.&lt;/p&gt;&#xA;&lt;p&gt;For starters, this is the software I use:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hugo&lt;/li&gt;&#xA;&lt;li&gt;editor of my choice (currently vscode)&lt;/li&gt;&#xA;&lt;li&gt;bash (scp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and thats basically it.&#xA;This is the general workflow I use:&lt;/p&gt;</description>
     </item>
   </channel>

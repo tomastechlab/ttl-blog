@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game Dev on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/game-dev/</link>
+    <link>http://localhost:1313/tags/game-dev/</link>
     <description>Recent content in Game Dev on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Mar 2024 14:15:08 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/game-dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/game-dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adventures in Go</title>
-      <link>https://tomastechlab.com/posts/adventures-in-go/</link>
+      <link>http://localhost:1313/posts/adventures-in-go/</link>
       <pubDate>Mon, 11 Mar 2024 14:15:08 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/adventures-in-go/</guid>
+      <guid>http://localhost:1313/posts/adventures-in-go/</guid>
       <description>&lt;p&gt;When I started programming I learned C, C++ and Java. These languages have been around for decades and are still not fully replaceable by modern languages.&#xA;I know, I know.. the Rust, Zig and Go folks are already grabbing their pitchforks but heare me out for a second.&#xA;As programming languages evolve and make programming in itself more accessible (and even more fun) to a lot of people.&#xA;There are still areas where the old school, rock solid seniors are needed. And I mean that in the best way possible.&#xA;Even though I learned all these languages and their features, some quirks and the mindsets/ideas behind them, I still like more modern approaches&#xA;to languages.&#xA;But this entry is titled &amp;ldquo;Adventures in Go&amp;rdquo; and up until now I only mentioned it once. Just keep reading and I will reveal my plan to you, just like a classic James Bond villain.&#xA;I wrote a lot of Code in my time as a software engineer and did it in various languages. Understanding the groundwork that C, C++ and Java did to&#xA;make the &amp;ldquo;new&amp;rdquo; languages possible helped me a ton in understanding the languages I was using over the years.&#xA;Some things were easier than others, but all in all I got done what was needed at the time.&#xA;One language that always had a special place in my heart is Go.&#xA;I dont know what it is that Go is able to scratch in the back of my head that others like Python, TypeScript or others cant.&#xA;I really dont write much Code in Go. In fact I wouldnt even consider myself a Go Developer at all. I wrote some small scripts and utilities but thats it.&lt;/p&gt;</description>
     </item>
   </channel>

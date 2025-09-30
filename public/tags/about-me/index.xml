@@ -2,24 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/about-me/</link>
+    <link>http://localhost:1313/tags/about-me/</link>
     <description>Recent content in About Me on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Mar 2024 13:02:14 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/about-me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Sep 2025 17:09:48 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/about-me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The first Steps</title>
+      <link>http://localhost:1313/posts/the-first-steps/</link>
+      <pubDate>Mon, 29 Sep 2025 17:09:48 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-first-steps/</guid>
+      <description>&lt;p&gt;I already wrote about my decision to start something fresh. Something new. Something fun.&lt;/p&gt;&#xA;&lt;p&gt;And today I did the first step for that. It does not seem much but from now on its real.&#xA;As I have to get everything in order with the German government because&amp;hellip; taxes I guess.&#xA;I started today by filing for a new tax ID and verified myself for a new bank account.&#xA;This is a very weird endeavor that someone that wants to start working in Germany needs to do.&#xA;The Country itself isn&amp;rsquo;t so bad I think.&#xA;But the bureaucratic hoops one has to go through just because he/she wants to work in this country is sometimes very ridiculous.&#xA;I just learned the other day that you are not allowed to create a company and work for 0 bucks just because you love what you do.&#xA;Okay 0 bucks would be very strange but even if you don&amp;rsquo;t earn as much as someone else (the finance department) decides you should, your company can get shut down.&#xA;I really don&amp;rsquo;t know why it is like this but its real and its somewhat nuts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Party-Pub to Office-Space</title>
+      <link>http://localhost:1313/posts/from-party-pub-to-office-space/</link>
+      <pubDate>Tue, 16 Sep 2025 11:11:07 +0200</pubDate>
+      <guid>http://localhost:1313/posts/from-party-pub-to-office-space/</guid>
+      <description>&lt;p&gt;Imagine the following: You have a small house on your property. Not a full house you can live in, more like a bigger garden shed or a small pool house (without the pool&amp;hellip;.yet).&lt;/p&gt;&#xA;&lt;p&gt;Got it? Alright. This is what I am working with. Or better: This is where I am working in.&lt;/p&gt;&#xA;&lt;p&gt;So far this small space was used as a party room / private pub. Including everything, you can image.&#xA;Fridge, Bar, Stools, Table&amp;hellip; and everything in a cozy pub like lighting.&#xA;Seemed nice and I really liked it, but it is time for something new.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Time for something new (again)</title>
+      <link>http://localhost:1313/posts/time-for-something-new-again/</link>
+      <pubDate>Mon, 01 Sep 2025 17:01:33 +0200</pubDate>
+      <guid>http://localhost:1313/posts/time-for-something-new-again/</guid>
+      <description>&lt;p&gt;I guess its time for me to move on, because everything is fucked.&#xA;In terms of work and employment at least. But its not that easy for me.&#xA;Let me explain and start from the beginning:&lt;/p&gt;&#xA;&lt;p&gt;Its 2018: I just lost my last job in a huge agency and was in between jobs when I decided that its time for me to do freelancing.&#xA;Being my own boss was something that always wanted. And now there was my oppoprtunity.&#xA;So I started as a freelancer. Asked the government for a tax id and started to work.&#xA;I was on my own, there was no plan b and as a motivation my wife just gave birth to our daughter.&#xA;But I had a blast. I worked with way more motivation that before and, what surprised me the most, I had fun.&#xA;Actual, real fun. I created stuff. I was creative in ways I never imagined. Heck, I even had a proper instagram account that I regularly used and published stuff on. And people who know me personally would never expect some kind of social media work from me.&#xA;It was a great time and I really enjoyed it.&#xA;Then, about a year later, I wanted to push it to the next level.&#xA;So I grabbed my best friend of that time and asked him if he wants to found an agency for webdevelopment with me.&#xA;He was hesitant at first but as me and him both could bring in customers from our previous work there should be no issue to get started and be profitable from day 0.&#xA;And so we began. We used the name that I already was working under (Codezilla IT-Consulting) and then we kept working, we grew as a company over the years and now, after around 6 years, we are about 10 people. It wasnt always easy but we managed to push through.&#xA;And all that without any venture capital or other sources of income.&#xA;It feels great.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I made an Oopsie and PoE is not Wifi</title>
+      <link>http://localhost:1313/posts/i-made-an-oopsie-and-poe-is-not-wifi/</link>
+      <pubDate>Tue, 05 Aug 2025 14:25:29 +0200</pubDate>
+      <guid>http://localhost:1313/posts/i-made-an-oopsie-and-poe-is-not-wifi/</guid>
+      <description>&lt;p&gt;Do you kow the feeling when you think you have figured out something but then you are completely wrong about it and then realize that if you had been more coreful in the first place you could have prevented it?&lt;/p&gt;&#xA;&lt;p&gt;That just happened to me.&#xA;Nothing big, just an oversight. An obvbious one.&#xA;As you might know (or not) I bought an old House a few years ago. And my mission with it is to make it smart. Piece by piece, little by little.&#xA;So far so good. I pull network cables, I configure appliances, add them to my Home Assistant Network&amp;hellip; and all works great.&#xA;Mostly, sometimes, if I care enough about it.&#xA;As I also run my own AI RIG at home I try to make it &amp;ldquo;understand&amp;rdquo; certain phrases and trigger speicif routines. But all that is beside the point.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A House From the 50s - but smart</title>
-      <link>https://tomastechlab.com/posts/a-house-from-the-50s-but-smart/</link>
+      <link>http://localhost:1313/posts/a-house-from-the-50s-but-smart/</link>
       <pubDate>Fri, 29 Mar 2024 13:02:14 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/a-house-from-the-50s-but-smart/</guid>
+      <guid>http://localhost:1313/posts/a-house-from-the-50s-but-smart/</guid>
       <description>&lt;p&gt;In the beginning of 2023 I bought a house and was pretty happy about it.&#xA;The house wasnt anything special but it has enough rooms to house me, my wife and my daughter.&#xA;The biggest issue however was that the man that lived here before us was a heavy smoker. And I mean a real heavy smoker.&#xA;So the walls and all the interior was basically soaked in nicotin.&#xA;So the only reasonable thing to do was to rip out basically anything and replace it with something new and fresh.&#xA;While I planned on how to achieve a home that I can live in for longer than just a few years a thought came to mind which was&#xA;basically: Why not make it smart if I have to renovate everything anyway?&#xA;And so it started.&#xA;But first I had so clarify some things:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Angry Development</title>
-      <link>https://tomastechlab.com/posts/angry-development/</link>
+      <link>http://localhost:1313/posts/angry-development/</link>
       <pubDate>Fri, 22 Mar 2024 20:14:15 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/angry-development/</guid>
+      <guid>http://localhost:1313/posts/angry-development/</guid>
       <description>&lt;p&gt;Let me start this entry with a few questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do you program?&lt;/li&gt;&#xA;&lt;li&gt;Do you program for long sessions?&lt;/li&gt;&#xA;&lt;li&gt;Do you know &amp;ldquo;The Flow&amp;rdquo;?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you can answer all of these with a &amp;ldquo;yes&amp;rdquo; then you probably know the rush that comes with &amp;ldquo;The Flow&amp;rdquo;.&#xA;Full-focused tunnel vision.&#xA;Just you and your code.&#xA;Its one symbiotic relationship.&#xA;Just a plain beautiful and peaceful state to be in.&lt;/p&gt;&#xA;&lt;p&gt;Well, most of the time at least. Did you know that you can reach this kind of focus by being angry?&#xA;The tunnel vision, the rush, the pump that shakes your whole body when fight-or-flight instincts kick in.&lt;/p&gt;</description>
     </item>
   </channel>

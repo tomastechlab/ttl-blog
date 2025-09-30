@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Doorbell on Tomas Tech Lab</title>
+    <link>http://localhost:1313/tags/doorbell/</link>
+    <description>Recent content in Doorbell on Tomas Tech Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Aug 2025 14:25:29 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/doorbell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I made an Oopsie and PoE is not Wifi</title>
+      <link>http://localhost:1313/posts/i-made-an-oopsie-and-poe-is-not-wifi/</link>
+      <pubDate>Tue, 05 Aug 2025 14:25:29 +0200</pubDate>
+      <guid>http://localhost:1313/posts/i-made-an-oopsie-and-poe-is-not-wifi/</guid>
+      <description>&lt;p&gt;Do you kow the feeling when you think you have figured out something but then you are completely wrong about it and then realize that if you had been more coreful in the first place you could have prevented it?&lt;/p&gt;&#xA;&lt;p&gt;That just happened to me.&#xA;Nothing big, just an oversight. An obvbious one.&#xA;As you might know (or not) I bought an old House a few years ago. And my mission with it is to make it smart. Piece by piece, little by little.&#xA;So far so good. I pull network cables, I configure appliances, add them to my Home Assistant Network&amp;hellip; and all works great.&#xA;Mostly, sometimes, if I care enough about it.&#xA;As I also run my own AI RIG at home I try to make it &amp;ldquo;understand&amp;rdquo; certain phrases and trigger speicif routines. But all that is beside the point.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

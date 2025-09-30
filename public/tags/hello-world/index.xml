@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello World on Tomas Tech Lab</title>
-    <link>https://tomastechlab.com/tags/hello-world/</link>
+    <link>http://localhost:1313/tags/hello-world/</link>
     <description>Recent content in Hello World on Tomas Tech Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Mar 2024 19:12:19 +0100</lastBuildDate>
-    <atom:link href="https://tomastechlab.com/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://tomastechlab.com/posts/hello-world/</link>
+      <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Tue, 05 Mar 2024 19:12:19 +0100</pubDate>
-      <guid>https://tomastechlab.com/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello and welcome to my first entry! As I have no idea what to write in this first post I would like to thank you.&lt;/p&gt;&#xA;&lt;p&gt;Yes, thank you!&lt;/p&gt;&#xA;&lt;p&gt;The fact that you found this Blog, and read this, tells me that you might be interested in something I wrote about or just scraped&#xA;the Internet hard enough to find a link to this post.&#xA;Anyway, while you are here, why dont you check out my &lt;a href=&#34;https://tomastechlab.com/about/&#34; title=&#34;about&#34;&gt;about&lt;/a&gt; page?&#xA;Or any other post I might have published since I wrote these lines.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;Hello and welcome to my first entry! As I have no idea what to write in this first post I would like to thank you.&lt;/p&gt;&#xA;&lt;p&gt;Yes, thank you!&lt;/p&gt;&#xA;&lt;p&gt;The fact that you found this Blog, and read this, tells me that you might be interested in something I wrote about or just scraped&#xA;the Internet hard enough to find a link to this post.&#xA;Anyway, while you are here, why dont you check out my &lt;a href=&#34;http://localhost:1313/about/&#34; title=&#34;about&#34;&gt;about&lt;/a&gt; page?&#xA;Or any other post I might have published since I wrote these lines.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

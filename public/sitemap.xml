@@ -2,143 +2,173 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tomastechlab.com/tags/agencies/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/about-me/</loc>
+    <lastmod>2025-09-29T17:09:48+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/freelance/</loc>
+    <lastmod>2025-09-29T17:09:48+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-29T17:09:48+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/project/</loc>
+    <lastmod>2025-09-29T17:09:48+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-29T17:09:48+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-first-steps/</loc>
+    <lastmod>2025-09-29T17:09:48+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/work/</loc>
+    <lastmod>2025-09-29T17:09:48+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/from-party-pub-to-office-space/</loc>
+    <lastmod>2025-09-16T11:11:07+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/homelab/</loc>
+    <lastmod>2025-09-16T11:11:07+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/office/</loc>
+    <lastmod>2025-09-16T11:11:07+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/private/</loc>
+    <lastmod>2025-09-01T17:01:33+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/time-for-something-new-again/</loc>
+    <lastmod>2025-09-01T17:01:33+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/doorbell/</loc>
+    <lastmod>2025-08-05T14:25:29+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/house/</loc>
+    <lastmod>2025-08-05T14:25:29+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/i-made-an-oopsie-and-poe-is-not-wifi/</loc>
+    <lastmod>2025-08-05T14:25:29+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/iot/</loc>
+    <lastmod>2025-08-05T14:25:29+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/smart/</loc>
+    <lastmod>2025-08-05T14:25:29+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/a-new-hope-kinda/</loc>
+    <lastmod>2025-07-16T15:59:34+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/agencies/</loc>
+    <lastmod>2025-07-16T15:59:34+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/development/</loc>
+    <lastmod>2025-07-16T15:59:34+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/projects/</loc>
+    <lastmod>2025-07-16T15:59:34+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/government/</loc>
+    <lastmod>2025-07-02T19:00:54+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/leaving-a-government-project/</loc>
+    <lastmod>2025-07-02T19:00:54+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2025-05-27T12:01:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hosting/</loc>
+    <lastmod>2025-05-27T12:01:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/we-are-on-github-now/</loc>
+    <lastmod>2025-05-27T12:01:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/agile/</loc>
     <lastmod>2025-03-21T10:09:30+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/agile/</loc>
+    <loc>http://localhost:1313/posts/working-for-governal-it-suppliers/</loc>
     <lastmod>2025-03-21T10:09:30+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/development/</loc>
-    <lastmod>2025-03-21T10:09:30+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/government/</loc>
-    <lastmod>2025-03-21T10:09:30+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/posts/</loc>
-    <lastmod>2025-03-21T10:09:30+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/projects/</loc>
-    <lastmod>2025-03-21T10:09:30+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/</loc>
-    <lastmod>2025-03-21T10:09:30+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/</loc>
-    <lastmod>2025-03-21T10:09:30+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/work/</loc>
-    <lastmod>2025-03-21T10:09:30+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/posts/working-for-governal-it-suppliers/</loc>
-    <lastmod>2025-03-21T10:09:30+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/hosting/</loc>
+    <loc>http://localhost:1313/posts/struggling-to-keep-it-up/</loc>
     <lastmod>2025-03-02T13:22:36+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/struggling-to-keep-it-up/</loc>
-    <lastmod>2025-03-02T13:22:36+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/hardware/</loc>
+    <loc>http://localhost:1313/tags/hardware/</loc>
     <lastmod>2025-01-17T10:16:00+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/homelab/</loc>
+    <loc>http://localhost:1313/tags/server/</loc>
     <lastmod>2025-01-17T10:16:00+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/server/</loc>
+    <loc>http://localhost:1313/posts/updates-to-the-homelab/</loc>
     <lastmod>2025-01-17T10:16:00+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/updates-to-the-homelab/</loc>
-    <lastmod>2025-01-17T10:16:00+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/posts/3d-printing-with-10mm-accuracy/</loc>
+    <loc>http://localhost:1313/posts/3d-printing-with-10mm-accuracy/</loc>
     <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/3dprinting/</loc>
+    <loc>http://localhost:1313/tags/3dprinting/</loc>
     <lastmod>2024-12-23T07:38:37+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/code/</loc>
+    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2024-12-04T10:23:44+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/what-does-cleaning-up-code-mean/</loc>
+    <loc>http://localhost:1313/posts/what-does-cleaning-up-code-mean/</loc>
     <lastmod>2024-12-04T10:23:44+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/blog/</loc>
+    <loc>http://localhost:1313/posts/his/my/our-complicated-blog-setup/</loc>
     <lastmod>2024-11-28T10:07:25+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/his/my/our-complicated-blog-setup/</loc>
-    <lastmod>2024-11-28T10:07:25+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/private/</loc>
+    <loc>http://localhost:1313/posts/why-no-comments/</loc>
     <lastmod>2024-11-11T20:39:03+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/why-no-comments/</loc>
-    <lastmod>2024-11-11T20:39:03+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/posts/hosted-in-the-woods/</loc>
+    <loc>http://localhost:1313/posts/hosted-in-the-woods/</loc>
     <lastmod>2024-10-28T19:55:29+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/updates/</loc>
+    <loc>http://localhost:1313/posts/updates/</loc>
     <lastmod>2024-08-20T18:48:59+02:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2024-04-09T06:06:06+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/do-i-need-my-own-ai-assistant/</loc>
+    <loc>http://localhost:1313/posts/do-i-need-my-own-ai-assistant/</loc>
     <lastmod>2024-04-09T06:06:06+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/project/</loc>
-    <lastmod>2024-04-09T06:06:06+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/smart/</loc>
-    <lastmod>2024-04-09T06:06:06+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/posts/a-house-from-the-50s-but-smart/</loc>
+    <loc>http://localhost:1313/posts/a-house-from-the-50s-but-smart/</loc>
     <lastmod>2024-03-29T13:02:14+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/about-me/</loc>
-    <lastmod>2024-03-29T13:02:14+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/house/</loc>
-    <lastmod>2024-03-29T13:02:14+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/tags/iot/</loc>
-    <lastmod>2024-03-29T13:02:14+01:00</lastmod>
-  </url><url>
-    <loc>https://tomastechlab.com/posts/angry-development/</loc>
+    <loc>http://localhost:1313/posts/angry-development/</loc>
     <lastmod>2024-03-22T20:14:15+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/flow/</loc>
+    <loc>http://localhost:1313/tags/flow/</loc>
     <lastmod>2024-03-22T20:14:15+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/programming/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2024-03-22T20:14:15+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/adventures-in-go/</loc>
+    <loc>http://localhost:1313/posts/adventures-in-go/</loc>
     <lastmod>2024-03-11T14:15:08+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/game-dev/</loc>
+    <loc>http://localhost:1313/tags/game-dev/</loc>
     <lastmod>2024-03-11T14:15:08+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/go/</loc>
+    <loc>http://localhost:1313/tags/go/</loc>
     <lastmod>2024-03-11T14:15:08+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/author/</loc>
+    <loc>http://localhost:1313/tags/author/</loc>
     <lastmod>2024-03-05T19:12:19+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/first-entry/</loc>
+    <loc>http://localhost:1313/tags/first-entry/</loc>
     <lastmod>2024-03-05T19:12:19+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/posts/hello-world/</loc>
+    <loc>http://localhost:1313/posts/hello-world/</loc>
     <lastmod>2024-03-05T19:12:19+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/hello-world/</loc>
+    <loc>http://localhost:1313/tags/hello-world/</loc>
     <lastmod>2024-03-05T19:12:19+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/tags/welcome/</loc>
+    <loc>http://localhost:1313/tags/welcome/</loc>
     <lastmod>2024-03-05T19:12:19+01:00</lastmod>
   </url><url>
-    <loc>https://tomastechlab.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://tomastechlab.com/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>
