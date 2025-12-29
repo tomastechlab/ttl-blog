@@ -52,9 +52,8 @@ caches:
 params:
   # Site Author
   author: 
-    - Tomas
-    email:
-      - tomas@tomastechlab.com
+    name:  Tomas
+    email: tomas@tomastechlab.com
   # Author biography
   bio: This is where I blog about things
   # Site Description, used in HTML meat
