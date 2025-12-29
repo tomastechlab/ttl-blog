@@ -39,7 +39,7 @@ markup:
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
   # e.g.
-  github: https://github.com/tomasschmidt89
+  github: https://github.com/tomastechlab
   # twitter: your-twitter-link
   # stackoverflow: your-stackoverflow-link
   # facebook: your-facebook-link
@@ -51,7 +51,8 @@ caches:
 # Site parameters
 params:
   # Site Author
-  author: Tomas
+  author: 
+    - Tomas
   # Author biography
   bio: This is where I blog about things
   # Site Description, used in HTML meat
