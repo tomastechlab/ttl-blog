@@ -53,6 +53,7 @@ params:
   # Site Author
   author: 
     - Tomas
+    email: tomas@tomastechlab.com
   # Author biography
   bio: This is where I blog about things
   # Site Description, used in HTML meat
@@ -61,7 +62,7 @@ params:
     - blog
     - homepage
   contact:
-    email: kontakt@tomastechlab.com
+    email: tomas@tomastechlab.com
 
   homeSubtitle: This is where I blog about things
   enableThemeToggle: true
