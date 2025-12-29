@@ -53,7 +53,7 @@ params:
   # Site Author
   author: 
     - Tomas
-    email: tomas@tomastechlab.com
+    - email: tomas@tomastechlab.com
   # Author biography
   bio: This is where I blog about things
   # Site Description, used in HTML meat
