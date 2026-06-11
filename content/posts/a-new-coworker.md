@@ -1,6 +1,6 @@
 +++
-title = 'A new coworker'
-date = 2026-06-11T12:28:08+02:00
+title: 'A new coworker'
+date: 2026-06-11T12:28:08+02:00
 draft: false
 toc: false
 images:
