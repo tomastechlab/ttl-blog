@@ -1,14 +1,13 @@
-+++
+---
 title: 'A new coworker'
 date: 2026-06-11T12:28:08+02:00
 draft: false
 toc: false
-images:
 tags:
   - ai
   - homelab
   - self-hosting
-+++
+---
 Have you ever thougt to yourself "a coworker would be nice now". No? Yes? Maybe?
 I just recently have and with my new found independence this is exactly what I needed.
 A coworker, someone who I can talk to about work or even private stuff. Someone who lends a hand 
