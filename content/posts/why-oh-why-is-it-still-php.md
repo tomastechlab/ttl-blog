@@ -1,6 +1,6 @@
 ---
 title: "Why! Oh why! ...is it still PHP"
-date: 2026-06-18T15:18:12+01:00
+date: 2026-06-18T15:18:12+02:00
 draft: false
 toc: false
 tags:
