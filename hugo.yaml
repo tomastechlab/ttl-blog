@@ -119,6 +119,8 @@ params:
       url: https://github.com/tomastechlab
     - name: instagram
       url: https://instagram.com/tomastechlab
+    - name: bluesky
+      url: https://bsky.app/profile/tomastechlab.com
     - name: email
       url: mailto:info@tomastechlab.com
     - name: kofi
