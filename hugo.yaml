@@ -121,6 +121,8 @@ params:
       url: https://instagram.com/tomastechlab
     - name: bluesky
       url: https://bsky.app/profile/tomastechlab.com
+    - name: twitch
+      url: https://twitch.tv/tomastechlab
     - name: email
       url: mailto:info@tomastechlab.com
     - name: kofi
